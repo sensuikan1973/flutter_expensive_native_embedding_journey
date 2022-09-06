@@ -1,0 +1,24 @@
+---
+# See: https://github.com/actions/labeler#create-workflow
+
+name: Labeling PR
+
+# See: https://github.blog/2020-08-03-github-actions-improvements-for-fork-and-pull-request-workflows/
+# https://docs.github.com/ja/actions/using-workflows/events-that-trigger-workflows#pull_request_target
+# https://pankona.github.io/blog/2021/03/29/github-actions-pull-request-target/
+on: pull_request
+
+jobs:
+  labeling_pr:
+    permissions:
+      contents: read
+      pull-requests: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/labeler@v4
+        with:
+          repo-token: "${{ secrets.GITHUB_TOKEN }}"
+          # TODO: remove this option as workaround, if https://github.com/actions/labeler/pull/113 has been resolved.
+          sync-labels: "" # See: https://github.com/actions/labeler/pull/113#issuecomment-1033963931
