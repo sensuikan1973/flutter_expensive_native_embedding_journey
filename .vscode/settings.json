@@ -1,0 +1,10 @@
+{
+  "dart.lineLength": 120,
+  "editor.formatOnSave": true,
+  "workbench.colorCustomizations": {
+    "titleBar.activeBackground": "#0000D8",
+    "titleBar.activeForeground": "#000000",
+    "activityBar.background": "#0000D8",
+    "activityBar.foreground": "#000000"
+  }
+}
