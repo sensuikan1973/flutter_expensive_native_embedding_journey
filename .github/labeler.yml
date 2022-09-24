@@ -8,7 +8,7 @@ linux:
 windows:
   - windows/**/*
 
-sliedv:
+slidev:
   - slide/**/*
 
 GitHub Actions:
