@@ -24,6 +24,9 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          cache: "npm"
       - run: npm ci && npm run build
         working-directory: slide
 
@@ -31,7 +34,7 @@ jobs:
       - name: upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          path: 'slide/dist'
+          path: "slide/dist"
       - name: deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
