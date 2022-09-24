@@ -19,7 +19,7 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v3
-      - run: npm run build
+      - run: npm ci && npm run build
         working-directory: slide
 
       - uses: actions/configure-pages@v1
