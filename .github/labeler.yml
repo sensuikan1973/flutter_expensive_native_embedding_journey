@@ -8,6 +8,9 @@ linux:
 windows:
   - windows/**/*
 
+slidev:
+  - slide/**/*
+
 GitHub Actions:
   - .github/workflows/**/*
   - .github/scripts/**/*
