@@ -32,14 +32,14 @@ jobs:
         with:
           node-version: '${{ steps.nodenv.outputs.node-version }}'
 
-      - run: npm ci && npm run build
+      # See: # https://sli.dev/guide/hosting.html#vercel
+      - run: |
+          npm install
+          npm i -g @slidev/cli
+          slidev build --base flutter-expensive-native-embedding-journey
         working-directory: slide
-
-      - uses: actions/configure-pages@v1
-      - name: upload artifact
-        uses: actions/upload-pages-artifact@v1
+      - uses: crazy-max/ghaction-github-pages@v3
         with:
-          path: "slide/dist"
-      - name: deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v1
+          build_dir: slide/dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
