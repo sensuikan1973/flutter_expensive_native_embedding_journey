@@ -33,12 +33,14 @@ jobs:
         with:
           node-version: '${{ steps.nodenv.outputs.node-version }}'
 
-      - run: |
-          npm install
-          npm i -g @slidev/cli
-          slidev build --base flutter-expensive-native-embedding-journey
+      - run: npm ci && npm run build
         working-directory: slide
-      - uses: peaceiris/actions-gh-pages@v3
+
+      - uses: actions/configure-pages@v1
+      - name: upload artifact
+        uses: actions/upload-pages-artifact@v1
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: slide/dist
+          path: "slide/dist"
+      - name: deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v1
