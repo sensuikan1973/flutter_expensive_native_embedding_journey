@@ -1,0 +1,32 @@
+---
+name: Deploy Slide
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v3
+      - run: npm run build
+        working-directory: slide
+
+      - uses: actions/configure-pages@v1
+      - name: upload artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: 'slide/dist'
+      - name: deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v1
