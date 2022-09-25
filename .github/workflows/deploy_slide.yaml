@@ -36,8 +36,9 @@ jobs:
         run: |
           npm ci
           # https://sli.dev/guide/hosting.html#provide-downloadable-pdf
-          $(npm bin)/slidev build --base /${{ github.event.repository.name }}/
-          npm run export
+          npm run build -- --base /${{ github.event.repository.name }}/
+          npm run export -- --with-clicks
+          mv slides-export.pdf dist/flutter-expensive-native-embedding-journey.pdf
 
       - uses: actions/configure-pages@v1
       - uses: actions/upload-pages-artifact@v1
@@ -45,7 +46,7 @@ jobs:
           path: "./slide/dist/"
 
   deploy-slide:
-    if: ${{ github.ref == 'refs/heads/main' }}
+    # if: ${{ github.ref == 'refs/heads/main' }}
     needs: slidev-build
     runs-on: ubuntu-latest
     environment:

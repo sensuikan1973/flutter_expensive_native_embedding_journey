@@ -21,7 +21,6 @@ drawings:
   persist: false
 # use UnoCSS
 css: unocss
-download: true
 ---
 
 # Welcome to Slidev
@@ -35,12 +34,13 @@ Presentation slides for developers
 </div>
 
 <div class="abs-br m-6 flex gap-2">
-  <button @click="$slidev.nav.openInEditor()" title="Open in Editor" class="text-xl icon-btn opacity-50 !border-none !hover:text-white">
-    <carbon:edit />
-  </button>
   <a href="https://github.com/slidevjs/slidev" target="_blank" alt="GitHub"
     class="text-xl icon-btn opacity-50 !border-none !hover:text-white">
     <carbon-logo-github />
+  </a>
+  <a href="https://sensuikan1973.github.io/flutter-expensive-native-embedding-journey/flutter-expensive-native-embedding-journey.pdf" target="_blank"
+    class="text-xl icon-btn opacity-50 !border-none !hover:text-white">
+    <carbon-download />
   </a>
 </div>
 
