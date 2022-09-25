@@ -21,6 +21,7 @@ drawings:
   persist: false
 # use UnoCSS
 css: unocss
+download: https://sensuikan1973.github.io/flutter-expensive-native-embedding-journey/flutter-expensive-native-embedding-journey.pdf # 
 ---
 
 # Welcome to Slidev

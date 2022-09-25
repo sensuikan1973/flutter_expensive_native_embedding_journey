@@ -36,9 +36,7 @@ jobs:
         run: |
           npm ci
           # https://sli.dev/guide/hosting.html#provide-downloadable-pdf
-          $(npm bin)/slidev build \
-          --base /${{ github.event.repository.name }}/ \
-          --download "https://${{ github.event.repository.name }}/flutter-expensive-native-embedding-journey.pdf"
+          $(npm bin)/slidev build --base /${{ github.event.repository.name }}/
 
       - uses: actions/configure-pages@v1
       - uses: actions/upload-pages-artifact@v1
