@@ -35,7 +35,7 @@ jobs:
         working-directory: slide
         run: |
           npm ci
-          $(npm bin)/slidev build --base https://sensuikan1973.github.io/flutter-expensive-native-embedding-journey/
+          $(npm bin)/slidev build --base /${{ github.event.repository.name }}/
 
       - uses: actions/configure-pages@v1
       - uses: actions/upload-pages-artifact@v1
