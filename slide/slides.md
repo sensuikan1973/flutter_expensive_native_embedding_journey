@@ -21,6 +21,7 @@ drawings:
   persist: false
 # use UnoCSS
 css: unocss
+# https://sli.dev/guide/hosting.html#provide-downloadable-pdf
 download: https://sensuikan1973.github.io/flutter-expensive-native-embedding-journey/flutter-expensive-native-embedding-journey.pdf
 ---
 
