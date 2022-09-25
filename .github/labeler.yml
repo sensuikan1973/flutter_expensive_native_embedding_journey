@@ -10,6 +10,7 @@ windows:
 
 slidev:
   - slide/**/*
+  - .github/workflows/deploy_slide.yaml
 
 GitHub Actions:
   - .github/workflows/**/*
