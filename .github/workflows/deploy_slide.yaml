@@ -1,5 +1,5 @@
 ---
-# ref: https://sli.dev/guide/hosting.html#vercel
+# ref: https://sli.dev/guide/hosting.html#github-pages
 name: Deploy Slide
 
 on:
@@ -30,8 +30,11 @@ jobs:
         with:
           node-version: '${{ steps.nodenv.outputs.node-version }}'
 
-      - run: npm ci && npm run build
-        working-directory: slide
+      - working-directory: slide
+        run: |
+          npm ci
+          npm i -g @slidev/cli
+          slidev build --base sensuikan1973/flutter-expensive-native-embedding-journey
 
       - uses: actions/configure-pages@v1
       - uses: actions/upload-pages-artifact@v1
