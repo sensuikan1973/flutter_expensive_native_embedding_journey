@@ -1,7 +1,7 @@
 {
   "name": "slide",
   "version": "0.0.1",
-  "private": true,
+  "private": false,
   "scripts": {
     "build": "slidev build",
     "dev": "slidev --open",
