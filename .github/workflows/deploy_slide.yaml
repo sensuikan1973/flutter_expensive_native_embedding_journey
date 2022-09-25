@@ -33,7 +33,7 @@ jobs:
       - name: slidev build
         working-directory: slide
         run: |
-          npm ci
+          npm install
           npm i -g @slidev/cli
           slidev build --base https://sensuikan1973.github.io/flutter-expensive-native-embedding-journey/
 
