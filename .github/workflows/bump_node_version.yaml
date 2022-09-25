@@ -8,23 +8,22 @@ on:
 
 jobs:
   bump_nodejs_version:
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     timeout-minutes: 20
     steps:
       - uses: actions/checkout@v3
-
-      # https://github.com/actions/setup-node/issues/206#issuecomment-774538395
-      - uses: nodenv/actions/node-version@main
-        id: nodenv
-      - uses: actions/setup-node@v3
-        with:
-          node-version: '${{ steps.nodenv.outputs.node-version }}'
+      - name: setup nodenv
+        run: |
+          brew install nodenv
+          # See: https://github.com/nodenv/node-build#upgrading
+          brew update && brew upgrade node-build
 
       - name: install latest nodejs version
         run: |
           latest_version=$(nodenv install --list | sort -n -r | head -1)
           nodenv install $latest_version
           nodenv local $latest_version
+
       - name: install dependencies, and build
         working-directory: slide
         run: npm install && npm run build
