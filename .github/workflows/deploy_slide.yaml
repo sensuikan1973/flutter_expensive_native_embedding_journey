@@ -4,6 +4,7 @@ name: Deploy Slide
 
 on:
   workflow_dispatch:
+  pull_request:
   push:
     branches:
       - main
@@ -33,7 +34,7 @@ jobs:
       - name: slidev build
         working-directory: slide
         run: |
-          npm install
+          npm ci
           npm i -g @slidev/cli
           slidev build --base https://sensuikan1973.github.io/flutter-expensive-native-embedding-journey/
 
@@ -43,6 +44,7 @@ jobs:
           path: "./slide/dist/"
 
   deploy:
+    if: ${{ github.ref == 'refs/heads/main' }}
     needs: build
     runs-on: ubuntu-latest
     environment:
