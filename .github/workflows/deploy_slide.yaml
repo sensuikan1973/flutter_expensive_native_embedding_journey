@@ -46,7 +46,7 @@ jobs:
           path: "./slide/dist/"
 
   deploy-slide:
-    # if: ${{ github.ref == 'refs/heads/main' }}
+    if: ${{ github.ref == 'refs/heads/main' }}
     needs: slidev-build
     runs-on: ubuntu-latest
     environment:
