@@ -35,7 +35,7 @@ jobs:
         run: |
           npm ci
           npm i -g @slidev/cli
-          slidev build --base https://github.com/sensuikan1973/flutter-expensive-native-embedding-journey
+          slidev build --base https://sensuikan1973.github.io/flutter-expensive-native-embedding-journey/
 
       - uses: actions/configure-pages@v1
       - uses: actions/upload-pages-artifact@v1
