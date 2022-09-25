@@ -30,7 +30,8 @@ jobs:
         with:
           node-version: '${{ steps.nodenv.outputs.node-version }}'
 
-      - working-directory: slide
+      - name: slidev build
+        working-directory: slide
         run: |
           npm ci
           npm i -g @slidev/cli
