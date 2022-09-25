@@ -22,9 +22,8 @@ jobs:
         run: |
           latest_version=$(nodenv install --list | sort -n -r | head -1)
           nodenv install $latest_version
-          nodenv rehash
           nodenv local $latest_version
-          node --version
+          nodenv rehash
 
       - name: install dependencies, and build
         working-directory: slide
