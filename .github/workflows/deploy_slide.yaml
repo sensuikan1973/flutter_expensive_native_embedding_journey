@@ -44,7 +44,7 @@ jobs:
         run: npm run check-prettier
 
   slidev-build:
-    needs: slidev-format
+    needs: formatter
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
