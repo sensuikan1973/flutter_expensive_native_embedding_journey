@@ -4,6 +4,8 @@
 
 ## References
 
+- [FlutterKaigi](https://flutterkaigi.jp/2022/)
+  - [requirements](https://fortee.jp/flutterkaigi-2022/speaker/proposal/cfp)
 - dockerize
   - [Codemagic | How to dockerize Flutter apps](https://blog.codemagic.io/how-to-dockerize-flutter-apps/)
   - [sbis04/flutter_docker](https://github.com/sbis04/flutter_docker)
