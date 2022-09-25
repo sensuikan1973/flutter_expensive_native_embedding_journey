@@ -22,7 +22,7 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  slidev-format:
+  formatter:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -34,13 +34,19 @@ jobs:
         with:
           node-version: '${{ steps.nodenv.outputs.node-version }}'
 
-      - name: slidev format
+      - working-directory: slide
+        run: npm ci
+
+      - name: slidev format check
         working-directory: slide
-        run: npm ci && npm run format
-      - run: git diff --exit-code
+        run: npm run format-slidev && git diff --exit-code
+
+      - name: prettier check
+        working-directory: slide
+        run: npm run check-prettier
 
   slidev-build:
-    needs: slidev-format
+    needs: formatter
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
