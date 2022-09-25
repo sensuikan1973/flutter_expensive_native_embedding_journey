@@ -34,8 +34,7 @@ jobs:
         working-directory: slide
 
       - uses: actions/configure-pages@v1
-      - name: upload artifact
-        uses: actions/upload-pages-artifact@v1
+      - uses: actions/upload-pages-artifact@v1
         with:
           path: "./slide/dist/"
 
@@ -46,6 +45,5 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: deploy to GitHub Pages
+      - uses: actions/deploy-pages@v1
         id: deployment
-        uses: actions/deploy-pages@v1
