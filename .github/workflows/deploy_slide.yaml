@@ -37,7 +37,7 @@ jobs:
           npm ci
           # https://sli.dev/guide/hosting.html#provide-downloadable-pdf
           npm run build -- --base /${{ github.event.repository.name }}/
-          npm run export -- --with-clicks
+          npm run export
           mv slides-export.pdf dist/flutter-expensive-native-embedding-journey.pdf
 
       - uses: actions/configure-pages@v1
