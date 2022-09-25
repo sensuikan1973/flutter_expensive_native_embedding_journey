@@ -22,7 +22,23 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
+  slidev-format:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      # https://github.com/actions/setup-node/issues/206#issuecomment-774538395
+      - uses: nodenv/actions/node-version@main
+        id: nodenv
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '${{ steps.nodenv.outputs.node-version }}'
+
+      - run: npm run format
+      - run: git diff --exit-code
+
   slidev-build:
+    needs: slidev-format
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
