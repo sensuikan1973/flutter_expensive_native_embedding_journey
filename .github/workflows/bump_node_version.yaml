@@ -26,7 +26,7 @@ jobs:
 
       - name: install dependencies, and build
         working-directory: slide
-        run: npm ci && npm run build
+        run: node --version && npm install && npm run build
 
       # See: https://github.com/peter-evans/create-pull-request/tree/master#reference-example
       - name: create PR
