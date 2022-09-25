@@ -2,6 +2,9 @@
   "name": "slide",
   "version": "0.0.1",
   "private": false,
+  "engines": {
+    "node": ">=v18.9.0"
+  },
   "scripts": {
     "build": "slidev build",
     "dev": "slidev --open",
