@@ -11,6 +11,8 @@ windows:
 slidev:
   - slide/**/*
   - .github/workflows/deploy_slide.yaml
+  - .prettierrc
+  - .node-version
 
 GitHub Actions:
   - .github/workflows/**/*
