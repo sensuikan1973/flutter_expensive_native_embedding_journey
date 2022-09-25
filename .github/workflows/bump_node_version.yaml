@@ -24,6 +24,7 @@ jobs:
           nodenv install $latest_version
           nodenv rehash
           nodenv local $latest_version
+          node --version
 
       - name: install dependencies, and build
         working-directory: slide
