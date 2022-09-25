@@ -34,7 +34,9 @@ jobs:
         with:
           node-version: '${{ steps.nodenv.outputs.node-version }}'
 
-      - run: npm ci && npm run format
+      - name: slidev format
+        working-directory: slide
+        run: npm ci && npm run format
       - run: git diff --exit-code
 
   slidev-build:
