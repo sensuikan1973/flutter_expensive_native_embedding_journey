@@ -37,6 +37,7 @@ jobs:
           npm ci
           # https://sli.dev/guide/hosting.html#provide-downloadable-pdf
           $(npm bin)/slidev build --base /${{ github.event.repository.name }}/
+          npm run export
 
       - uses: actions/configure-pages@v1
       - uses: actions/upload-pages-artifact@v1
