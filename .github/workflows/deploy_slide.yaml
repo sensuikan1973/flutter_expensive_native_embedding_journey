@@ -6,8 +6,11 @@ on:
   workflow_dispatch:
   pull_request:
   push:
-    branches:
-      - main
+    branches: [main]
+    paths:
+      - '.github/workflows/deploy_slide.yaml'
+      - 'slide/**'
+      - '.prettierrc'
 
 permissions:
   contents: read
