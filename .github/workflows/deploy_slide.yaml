@@ -34,13 +34,16 @@ jobs:
         with:
           node-version: '${{ steps.nodenv.outputs.node-version }}'
 
-      - run: npm ci
+      - working-directory: slide
+        run: npm ci
+
 
       - name: slidev format check
         working-directory: slide
         run: npm run format-slidev && git diff --exit-code
 
       - name: prettier check
+        working-directory: slide
         run: npm run check-prettier
 
   slidev-build:
