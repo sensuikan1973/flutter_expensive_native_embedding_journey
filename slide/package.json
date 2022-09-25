@@ -6,8 +6,8 @@
     "build": "slidev build",
     "dev": "slidev --open",
     "format-slidev": "slidev format",
-    "check-prettier": "prettier --check '**/*.{js,ts}'",
-    "apply-prettier": "prettier --write '**/*.{js,ts}'",
+    "check-prettier": "prettier --check **/*.{js,vue}",
+    "apply-prettier": "prettier --write **/*.{js,vue}",
     "export": "slidev export --with-clicks"
   },
   "dependencies": {
