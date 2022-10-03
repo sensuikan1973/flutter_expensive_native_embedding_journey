@@ -3,6 +3,7 @@
 theme: geist
 title: Flutter Expensive Native Embedding Journey at FlutterKaigi 2022
 info: false
+colorSchema: light
 background: https://source.unsplash.com/collection/94734566/1920x1080
 class: text-center
 highlighter: shiki
