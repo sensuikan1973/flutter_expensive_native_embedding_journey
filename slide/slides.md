@@ -12,6 +12,7 @@ drawings:
   presenterOnly: true
 css: unocss
 canvasWidth: 980
+aspectRatio: 16/9 # See: https://fortee.jp/flutterkaigi-2022/speaker/proposal/cfp
 favicon: https://avatars.githubusercontent.com/u/23427957 # https://github.com/sensuikan1973/
 ---
 
