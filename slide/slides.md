@@ -1,18 +1,18 @@
 ---
-theme: seriph
+theme: geist
+title: Flutter Expensive Native Embedding Journey at FlutterKaigi 2022
+info: false
+colorSchema: light
 background: https://source.unsplash.com/collection/94734566/1920x1080
 class: text-center
 highlighter: shiki
-lineNumbers: false
-info: |
-  ## Slidev Starter Template
-  Presentation slides for developers.
-
-  Learn more at [Sli.dev](https://sli.dev)
+lineNumbers: true
 drawings:
-  persist: false
+  presenterOnly: true
 css: unocss
-title: Welcome to Slidev
+canvasWidth: 980
+aspectRatio: 16/9
+favicon: https://avatars.githubusercontent.com/u/23427957
 ---
 
 # Welcome to Slidev
