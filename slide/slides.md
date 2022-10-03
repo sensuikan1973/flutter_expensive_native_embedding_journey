@@ -1,5 +1,4 @@
 ---
-# https://sli.dev/custom/#frontmatter-configures
 theme: geist
 title: Flutter Expensive Native Embedding Journey at FlutterKaigi 2022
 info: false
@@ -12,8 +11,8 @@ drawings:
   presenterOnly: true
 css: unocss
 canvasWidth: 980
-aspectRatio: 16/9 # See: https://fortee.jp/flutterkaigi-2022/speaker/proposal/cfp
-favicon: https://avatars.githubusercontent.com/u/23427957 # https://github.com/sensuikan1973/
+aspectRatio: 16/9
+favicon: https://avatars.githubusercontent.com/u/23427957
 ---
 
 # Welcome to Slidev
