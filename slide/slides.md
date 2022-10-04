@@ -8,22 +8,22 @@ class: text-center
 highlighter: shiki
 lineNumbers: true
 drawings:
-  presenterOnly: true
+  enabled: true
 css: unocss
 canvasWidth: 980
 aspectRatio: 16/9
 favicon: https://avatars.githubusercontent.com/u/23427957
 ---
 
-# Welcome to Slidev
+# Flutter Expensive Native Embedding Journey
 
-Presentation slides for developers
+at [FlutterKaigi 2022](https://flutterkaigi.jp/2022/)
 
-<div class="pt-12">
+<!-- <div class="pt-12">
   <span @click="$slidev.nav.next" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
     Press Space for next page <carbon:arrow-right class="inline"/>
   </span>
-</div>
+</div> -->
 
 <div class="abs-br m-6 flex gap-2">
   <a href="https://github.com/slidevjs/slidev" target="_blank" alt="GitHub"
@@ -37,7 +37,8 @@ Presentation slides for developers
 </div>
 
 <!--
-The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
+日本語版タイトル「Flutter における高価なネイティブ処理の実装。その歴史と将来」について補足する。  
+https://sli.dev/guide/syntax.html#notes
 -->
 
 ---
