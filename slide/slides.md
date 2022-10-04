@@ -103,6 +103,7 @@ Hover on the bottom-left corner to see the navigation's controls panel, [learn m
 
 <p v-after class="absolute bottom-23 left-45 opacity-30 transform -rotate-10">Here!</p>
 
+
 ---
 
 # Code
@@ -276,6 +277,7 @@ const final = {
 [Learn More](https://sli.dev/guide/animations.html#motion)
 
 </div>
+
 
 ---
 
