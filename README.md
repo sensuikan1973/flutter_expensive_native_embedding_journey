@@ -9,4 +9,3 @@ This repository has slide and investigation for ["Flutter Expensive Native Embed
 - dockerize flutter app
   - [Codemagic | How to dockerize Flutter apps](https://blog.codemagic.io/how-to-dockerize-flutter-apps/)
   - [sbis04/flutter_docker](https://github.com/sbis04/flutter_docker)
-- [slidev](https://sli.dev/)

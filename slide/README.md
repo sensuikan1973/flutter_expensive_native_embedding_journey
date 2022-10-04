@@ -1,11 +1,12 @@
-# Welcome to [Slidev](https://github.com/slidevjs/slidev)!
+# Slide
 
-To start the slide show:
+## Development
+```sh
+npm run dev
 
-- `npm install`
-- `npm run dev`
-- visit http://localhost:3030
+npm run format-slidev
+```
 
-Edit the [slides.md](./slides.md) to see the changes.
+## References
 
-Learn more about Slidev on [documentations](https://sli.dev/).
+- [slidev](https://sli.dev/)
