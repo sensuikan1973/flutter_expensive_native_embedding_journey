@@ -17,10 +17,6 @@ permissions:
   pages: write
   id-token: write
 
-concurrency:
-  group: "pages"
-  cancel-in-progress: true
-
 jobs:
   formatter:
     runs-on: ubuntu-latest
@@ -73,6 +69,9 @@ jobs:
           path: "./slide/dist/"
 
   deploy-slide:
+    concurrency:
+      group: "deploy-slide"
+      cancel-in-progress: true
     if: ${{ github.ref == 'refs/heads/main' }}
     needs: slidev-build
     runs-on: ubuntu-latest
