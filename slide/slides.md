@@ -26,12 +26,12 @@ at [FlutterKaigi 2022](https://flutterkaigi.jp/2022/)
 </div> -->
 
 <div class="abs-br m-6 flex gap-2">
-  <a href="https://github.com/slidevjs/slidev" target="_blank" alt="GitHub"
-    class="text-xl icon-btn opacity-50 !border-none !hover:text-white">
+  <a href="https://github.com/sensuikan1973/flutter-expensive-native-embedding-journey" target="_blank" alt="GitHub"
+    class="text-xl icon-btn opacity-50 !border-none !hover:text-black">
     <carbon-logo-github />
   </a>
   <a href="https://sensuikan1973.github.io/flutter-expensive-native-embedding-journey/flutter-expensive-native-embedding-journey.pdf" target="_blank"
-    class="text-xl icon-btn opacity-50 !border-none !hover:text-white">
+    class="text-xl icon-btn opacity-50 !border-none !hover:text-black">
     <carbon-download />
   </a>
 </div>
