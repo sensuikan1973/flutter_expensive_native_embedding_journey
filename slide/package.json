@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sensuikan1973/flutter-expensive-native-embedding-journey.git"
+    "url": "https://github.com/sensuikan1973/flutter_expensive_native_embedding_journey/.git"
   },
   "scripts": {
     "build": "slidev build",

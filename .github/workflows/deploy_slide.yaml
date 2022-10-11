@@ -61,16 +61,16 @@ jobs:
           # https://sli.dev/guide/hosting.html#provide-downloadable-pdf
           npm run build -- --base /${{ github.event.repository.name }}/
           npm run export
-          mv slides-export.pdf dist/flutter-expensive-native-embedding-journey.pdf
+          mv slides-export.pdf dist/flutter_expensive_native_embedding_journey.pdf
 
       - uses: actions/configure-pages@v1
       - uses: actions/upload-pages-artifact@v1
         with:
-          path: "./slide/dist/"
+          path: './slide/dist/'
 
   deploy-slide:
     concurrency:
-      group: "deploy-slide"
+      group: 'deploy-slide'
       cancel-in-progress: true
     if: ${{ github.ref == 'refs/heads/main' }}
     needs: slidev-build

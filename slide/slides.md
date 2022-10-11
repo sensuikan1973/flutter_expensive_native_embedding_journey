@@ -26,18 +26,18 @@ at [FlutterKaigi 2022](https://flutterkaigi.jp/2022/)
 </div> -->
 
 <div class="abs-br m-6 flex gap-2">
-  <a href="https://github.com/sensuikan1973/flutter-expensive-native-embedding-journey" target="_blank" alt="GitHub"
+  <a href="https://github.com/sensuikan1973/flutter_expensive_native_embedding_journey/" target="_blank" alt="GitHub"
     class="text-xl icon-btn opacity-50 !border-none !hover:text-black">
     <carbon-logo-github />
   </a>
-  <a href="https://sensuikan1973.github.io/flutter-expensive-native-embedding-journey/flutter-expensive-native-embedding-journey.pdf" target="_blank"
+  <a href="https://sensuikan1973.github.io/flutter_expensive_native_embedding_journey//flutter_expensive_native_embedding_journey/.pdf" target="_blank"
     class="text-xl icon-btn opacity-50 !border-none !hover:text-black">
     <carbon-download />
   </a>
 </div>
 
 <!--
-日本語版タイトル「Flutter における高価なネイティブ処理の実装。その歴史と将来」について補足する。  
+日本語版タイトル「Flutter における高価なネイティブ処理の実装。その歴史と将来」について補足する。
 https://sli.dev/guide/syntax.html#notes
 -->
 
