@@ -1,5 +1,7 @@
+---
+
 name: flutter_expensive_native_embedding_journey
-description: A new Flutter project.
+description: Flutter Expensive Native Embedding Journey
 
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
