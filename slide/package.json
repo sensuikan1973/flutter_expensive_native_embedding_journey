@@ -2,6 +2,15 @@
   "name": "slide",
   "version": "0.0.1",
   "private": false,
+  "license": "MIT",
+  "author": {
+    "name": "sensuikan1973",
+    "url": "https://github.com/sensuikan1973"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sensuikan1973/flutter-expensive-native-embedding-journey.git"
+  },
   "scripts": {
     "build": "slidev build",
     "dev": "slidev --open",
