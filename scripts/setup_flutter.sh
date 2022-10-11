@@ -1,7 +1,4 @@
-#!/usr/bin/env zsh
-
-# See: https://github.com/koalaman/shellcheck/issues/809
-# shellcheck shell=bash
+#!/bin/bash
 
 set -euxo pipefail
 
