@@ -1,0 +1,60 @@
+---
+name: Flutter CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  flutter_format:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v3
+      - uses: subosito/flutter-action@v2.7.1
+        with:
+          cache: true
+      - name: setup flutter channel
+        shell: bash
+        run: ./scripts/setup_flutter.sh
+      - run: flutter format -l 120 --set-exit-if-changed .
+
+  flutter_analyze:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v3
+      - uses: subosito/flutter-action@v2.7.1
+        with:
+          cache: true
+      - name: setup flutter channel
+        shell: bash
+        run: ./scripts/setup_flutter.sh
+      - name: install dependencies
+        run: flutter pub get
+      - run: flutter analyze --fatal-infos --fatal-warnings .
+
+  flutter_tests:
+    needs: [flutter_format, flutter_analyze]
+    runs-on: macos-latest
+    timeout-minutes: 20
+
+    steps:
+      - uses: actions/checkout@v3
+      - uses: subosito/flutter-action@v2.7.1
+        with:
+          cache: true
+      - name: setup flutter channel
+        shell: bash
+        run: ./scripts/setup_flutter.sh
+      - name: doctor
+        run: flutter doctor -v
+      - name: install dependencies
+        run: flutter pub get
+
+      - name: run widget test
+        run: flutter test
+
+      # - name: run integration test
+      #   run: flutter test integration_test
