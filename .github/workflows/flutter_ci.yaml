@@ -55,6 +55,3 @@ jobs:
 
       - name: run widget test
         run: flutter test
-
-      # - name: run integration test
-      #   run: flutter test integration_test
