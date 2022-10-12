@@ -11,7 +11,7 @@ This repository has slide and investigation for ["Flutter Expensive Native Embed
 ## References
 
 - [FlutterKaigi](https://flutterkaigi.jp/2022/)
-  - [requirements](https://fortee.jp/flutterkaigi-2022/speaker/proposal/cfp)
+  - [requirements](https://flutterkaigi.jp/flutterkaigi/Precautions-for-Recording.ja.html)
 - dockerize flutter app
   - [Codemagic | How to dockerize Flutter apps](https://blog.codemagic.io/how-to-dockerize-flutter-apps/)
     - [sbis04/flutter_docker](https://github.com/sbis04/flutter_docker)
