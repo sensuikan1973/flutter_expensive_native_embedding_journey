@@ -50,8 +50,16 @@ e.g. Connection to remote server, Huge Numerical computation, ...
 
 ## What is **_Native_** here ?
 
-C/C++ on Android/iOS/macOS/Windows/Linux
+- ① C APIS on Android/iOS/macOS
+- ② platform-specific APIs <br/> (Kotlin/Java on Android, Swift/Objective-C on iOS, C++ on Windows, Objective-C on macOS, C on Linux)
 
+<!--
+https://docs.flutter.dev/development/platform-integration/platform-channels
+
+https://docs.flutter.dev/development/platform-integration/android/c-interop
+https://docs.flutter.dev/development/platform-integration/ios/c-interop
+https://docs.flutter.dev/development/platform-integration/macos/c-interop
+-->
 
 ---
 
