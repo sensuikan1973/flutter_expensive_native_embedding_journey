@@ -16,3 +16,4 @@ This repository has slide and investigation for ["Flutter Expensive Native Embed
   - [Codemagic | How to dockerize Flutter apps](https://blog.codemagic.io/how-to-dockerize-flutter-apps/)
     - [sbis04/flutter_docker](https://github.com/sbis04/flutter_docker)
 - [flutter Isolate Platform Channels](https://github.com/flutter/flutter/issues/13937#issuecomment-1203232254)
+- [Google Cloud Text-to-Speech](https://cloud.google.com/text-to-speech/)
