@@ -35,14 +35,28 @@ aa
 aa
 
 ---
+layout: two-cols
+---
+<!-- https://github.com/slidevjs/slidev/blob/main/packages/client/layouts/two-cols.vue -->
 
-<PageTitleHeader section="Introduction 3" title="Journey Overview"/>
+<PageTitleHeader section="Introduction" title="Journey Overview"/>
 
-# Journey
+## Journey: <Term val="native C APIs"/>
+<br>
 
 ```mermaid {scale: 0.5}
 journey
-    title The method of Native Embedding
-    Platform Channel: 5: Me
-    dart-ffi : 1: Me
+    platform channels: 3: developer
+    dart#58;ffi : 5: developer
+```
+<!-- https://mermaid-js.github.io/mermaid/#/./flowchart?id=entity-codes-to-escape-characters -->
+
+::right::
+
+## Journey: <Term val="platform-specific APIs"/>
+
+```mermaid {scale: 0.5}
+journey
+    platform channels: 3: developer
+    isolate platform channels : 5: developer
 ```
