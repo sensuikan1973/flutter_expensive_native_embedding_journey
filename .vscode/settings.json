@@ -5,5 +5,13 @@
     "titleBar.activeForeground": "#000000",
     "activityBar.background": "#0000D8",
     "activityBar.foreground": "#000000"
+  },
+  "emeraldwalk.runonsave": {
+    "commands": [
+      {
+        "match": "\\.(md|js|vue)",
+        "cmd": "cd ${workspaceFolder}/slide && npm run formatten"
+      }
+    ]
   }
 }
