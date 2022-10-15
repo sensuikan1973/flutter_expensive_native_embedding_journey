@@ -1,4 +1,4 @@
-<PageTitleHeader title="Introduction 1 / 3"/>
+<PageTitleHeader title="Introduction 1"/>
 
 ## What is **_Expensive_** here ?
 
@@ -20,7 +20,7 @@ https://docs.flutter.dev/development/platform-integration/macos/c-interop
 
 ---
 
-<PageTitleHeader title="Introduction 3 / 3"/>
+<PageTitleHeader title="Introduction 2"/>
 
 # Journey
 
