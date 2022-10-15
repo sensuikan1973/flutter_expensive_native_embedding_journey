@@ -33,7 +33,7 @@ jobs:
       - working-directory: slide
         run: npm ci
 
-      - name: slidev format check
+      - name: format check
         working-directory: slide
         run: npm run formatten && git diff --exit-code
 
