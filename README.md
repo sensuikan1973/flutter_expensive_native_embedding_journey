@@ -2,13 +2,18 @@
 
 This repository has slide and investigation for ["Flutter Expensive Native Embedding Journey"](https://fortee.jp/flutterkaigi-2022/proposal/d6a2b41c-e765-4d5f-845d-9290148cd880) at [FlutterKaigi 2022](https://flutterkaigi.jp/2022/).
 
-## Development (MacOS)
+
+---
+
+## For Developer
+
+### Setup (MacOS)
 
 ```sh
 ./scripts/setup_flutter.sh
 ```
 
-## References
+### References
 
 - [FlutterKaigi](https://flutterkaigi.jp/2022/)
   - [requirements](https://flutterkaigi.jp/flutterkaigi/Precautions-for-Recording.ja.html)
