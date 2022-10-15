@@ -1,4 +1,4 @@
-<PageTitleHeader title="Introduction 1"/>
+<PageTitleHeader section="Introduction" title="Term Definition"/>
 
 ## What is **_Expensive_** here ?
 
@@ -7,8 +7,8 @@ e.g. Connection to remote server, Huge Numerical computation, ...
 
 ## What is **_Native_** here ?
 
-- ① C APIs on Android/iOS/macOS
-- ② platform-specific APIs <br> <small>(Kotlin/Java on Android, Swift/Objective-C on iOS, C++ on Windows, Objective-C on macOS, C on Linux)</small>
+- ① <Term val="native C APIs"/> <br> <small>on **Android/iOS/macOS**</small>
+- ② <Term val="platform-specific APIs"/> <br> <small>(Kotlin/Java on Android, Swift/Objective-C on iOS, C++ on Windows, Objective-C on macOS, C on Linux)</small>
 
 <!--
 https://docs.flutter.dev/development/platform-integration/platform-channels
@@ -20,7 +20,23 @@ https://docs.flutter.dev/development/platform-integration/macos/c-interop
 
 ---
 
-<PageTitleHeader title="Introduction 2"/>
+<PageTitleHeader section="Introduction" title="Use Case"/>
+
+## Use Case of <Term val="native C APIs"/>
+
+aa
+
+---
+
+<PageTitleHeader section="Introduction" title="Use Case"/>
+
+## Use Case of <Term val="platform-specific APIs"/>
+
+aa
+
+---
+
+<PageTitleHeader section="Introduction 3" title="Journey Overview"/>
 
 # Journey
 
