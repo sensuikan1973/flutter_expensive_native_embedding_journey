@@ -15,7 +15,8 @@
     "build": "slidev build",
     "dev": "slidev --open",
     "formatten": "slidev format && prettier --write \"**/*.{js,vue}\"",
-    "export": "slidev export --with-clicks"
+    "export": "slidev export --with-clicks",
+    "upgrade_deps": "npm-check-updates -u && npm update"
   },
   "dependencies": {
     "@slidev/cli": "^0.36.6",

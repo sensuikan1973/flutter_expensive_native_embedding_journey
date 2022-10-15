@@ -6,7 +6,7 @@ npm run dev
 
 npm run formatten
 
-npm-check-updates -u && npm update
+npm run upgrade_deps
 ```
 
 ## References
