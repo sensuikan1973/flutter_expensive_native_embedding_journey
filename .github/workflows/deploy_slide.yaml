@@ -33,13 +33,9 @@ jobs:
       - working-directory: slide
         run: npm ci
 
-      - name: slidev format check
+      - name: format check
         working-directory: slide
-        run: npm run format-slidev && git diff --exit-code
-
-      - name: prettier check
-        working-directory: slide
-        run: npm run check-prettier
+        run: npm run formatten && git diff --exit-code
 
   slidev-build:
     needs: formatter

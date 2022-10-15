@@ -4,7 +4,9 @@
 ```sh
 npm run dev
 
-npm run format-slidev
+npm run formatten
+
+npm run upgrade_deps
 ```
 
 ## References

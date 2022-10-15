@@ -14,10 +14,9 @@
   "scripts": {
     "build": "slidev build",
     "dev": "slidev --open",
-    "format-slidev": "slidev format",
-    "check-prettier": "prettier --check **/*.{js,vue}",
-    "apply-prettier": "prettier --write **/*.{js,vue}",
-    "export": "slidev export --with-clicks"
+    "formatten": "slidev format && prettier --write \"**/*.{js,vue}\"",
+    "export": "slidev export --with-clicks",
+    "upgrade_deps": "npm-check-updates -u && npm update"
   },
   "dependencies": {
     "@slidev/cli": "^0.36.6",
@@ -25,6 +24,7 @@
   },
   "devDependencies": {
     "playwright-chromium": "^1.27.1",
-    "prettier": "^2.7.1"
+    "prettier": "^2.7.1",
+    "npm-check-updates": "^16.3.11"
   }
 }
