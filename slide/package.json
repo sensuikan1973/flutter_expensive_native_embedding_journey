@@ -14,8 +14,7 @@
   "scripts": {
     "build": "slidev build",
     "dev": "slidev --open",
-    "format-slidev": "slidev format",
-    "check-prettier": "prettier --check **/*.{js,vue}",
+    "formatten": "slidev format && npm run apply-prettier",
     "apply-prettier": "prettier --write **/*.{js,vue}",
     "export": "slidev export --with-clicks"
   },
