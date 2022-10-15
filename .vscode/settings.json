@@ -4,7 +4,8 @@
     "titleBar.activeBackground": "#0000D8",
     "titleBar.activeForeground": "#000000",
     "activityBar.background": "#0000D8",
-    "activityBar.foreground": "#000000"
+    "activityBar.foreground": "#000000",
+    "editor.selectionBackground": "#FF0000"
   },
   "emeraldwalk.runonsave": {
     "commands": [
@@ -13,5 +14,6 @@
         "cmd": "cd ${workspaceFolder}/slide && npm run formatten"
       }
     ]
-  }
+  },
+  "workbench.colorTheme": "Default Light+"
 }
