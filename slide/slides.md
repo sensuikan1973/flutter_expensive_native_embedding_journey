@@ -34,3 +34,15 @@ at [FlutterKaigi 2022](https://flutterkaigi.jp/2022/)
 ---
 src: ./pages/introduction.md
 ---
+
+---
+src: ./pages/impact_native_C_APIs.md
+---
+
+---
+src: ./pages/impact_platform-specific_APIs.md
+---
+
+---
+src: ./pages/summary.md
+---
