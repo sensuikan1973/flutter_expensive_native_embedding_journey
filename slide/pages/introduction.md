@@ -60,3 +60,20 @@ journey
     platform channels: 3: developer
     isolate platform channels : 5: developer
 ```
+
+---
+layout: two-cols
+---
+
+<PageTitleHeader section="Introduction" title="Impact"/>
+
+## Changes: <Term val="native C APIs"/>
+<br/>
+
+aaa
+
+::right::
+
+## Changes: <Term val="platform-specific APIs"/>
+
+aaa
