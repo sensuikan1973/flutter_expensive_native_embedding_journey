@@ -1,6 +1,6 @@
 # [flutter_expensive_native_embedding_journey](https://sensuikan1973.github.io/flutter_expensive_native_embedding_journey)
 
-Slides and Investigation for ["Flutter Expensive Native Embedding Journey"](https://fortee.jp/flutterkaigi-2022/proposal/d6a2b41c-e765-4d5f-845d-9290148cd880) at [FlutterKaigi 2022](https://flutterkaigi.jp/2022/).
+Slide and Investigation for ["Flutter Expensive Native Embedding Journey"](https://fortee.jp/flutterkaigi-2022/proposal/d6a2b41c-e765-4d5f-845d-9290148cd880) at [FlutterKaigi 2022](https://flutterkaigi.jp/2022/).
 
 
 ---
