@@ -5,3 +5,6 @@ dist
 index.html
 .remote-assets
 components.d.ts
+
+# See: .github/workflows/deploy_slide.yaml
+slides-export.pdf
