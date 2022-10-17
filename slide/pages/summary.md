@@ -7,7 +7,7 @@ align: center
 
 In Flutter, We got the smart way to embed logic calls <UniqueTerm val="native C APIs"/> with the benefit of <TechnicalTerm val="dart:ffi"/>.
 
-In Flutter, We are getting the way to embed logic calls <UniqueTerm val="platform-specific APIs"/> with the benefit of <TechnicalTerm val="Isolate Platform Channels"/>.
+In Flutter, We're getting the way to embed logic calls <UniqueTerm val="platform-specific APIs"/> with the benefit of <TechnicalTerm val="Isolate Platform Channels"/>.
 
 ↓
 
