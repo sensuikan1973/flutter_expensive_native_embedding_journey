@@ -5,9 +5,9 @@ align: center
 
 <PageTitleHeader section="Introduction" title="Summary"/>
 
-In Flutter, We got the smart way to embedd logic calls <Term val="native C APIs"/> with the benefit of dart:ffi.
+In Flutter, We got the smart way to embed logic calls <Term val="native C APIs"/> with the benefit of dart:ffi.
 
-In Flutter, We are getting the way to embedd logic calls <Term val="platform-specific APIs"/> with the benefit of Isolate Platform Channels.
+In Flutter, We are getting the way to embed logic calls <Term val="platform-specific APIs"/> with the benefit of Isolate Platform Channels.
 
 ↓
 
