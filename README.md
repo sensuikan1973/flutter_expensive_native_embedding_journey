@@ -27,6 +27,7 @@ Slide and Investigation for ["Flutter Expensive Native Embedding Journey"](https
     - [flutter Isolate Platform Channels](https://github.com/flutter/flutter/issues/13937#issuecomment-1203232254)
       - [flutter/website | Updated the platform channels documentation for background isolate channels](https://github.com/flutter/website/pull/7592)
       - [gaaclarke/background_isolate_channels_sample](https://github.com/gaaclarke/background_isolate_channels_sample)
+  - [Support integrating with C/C++ in plugin framework](https://github.com/flutter/flutter/issues/7053)
   - dart:ffi
     - [Binding to native macOS code using dart:ffi](https://docs.flutter.dev/development/platform-integration/macos/c-interop)
     - [Binding to native iOS code using dart:ffi](https://docs.flutter.dev/development/platform-integration/ios/c-interop)
