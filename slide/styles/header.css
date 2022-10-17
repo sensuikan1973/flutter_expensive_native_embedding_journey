@@ -1,7 +1,0 @@
-h1 {
-    color: var(--geist-foreground);
-    font-weight: 800;
-    /* line-height: 0;
-    font-size: 2.25rem; */
-    @apply text-4xl;
-}
