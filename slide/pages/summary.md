@@ -1,5 +1,14 @@
-<PageTitleHeader section="Conclusion" title="Summary"/>
+---
+layout: center
+align: center
+---
 
-# Summary
+<PageTitleHeader section="Introduction" title="Summary"/>
 
-TODO: aaa
+In Flutter, We got the smart way to embedd logic calls <Term val="native C APIs"/> with the benefit of dart:ffi.
+
+In Flutter, We are getting the way to embedd logic calls <Term val="platform-specific APIs"/> with the benefit of Isolate Platform Channels.
+
+↓
+
+Then, **We can product high-perofrmance apps which have _Expensive_ _Native_ logic** :-)
