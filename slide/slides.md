@@ -36,11 +36,11 @@ src: ./pages/introduction.md
 ---
 
 ---
-src: ./pages/impact_native_C_APIs.md
+src: ./pages/journey_native_C_APIs.md
 ---
 
 ---
-src: ./pages/impact_platform-specific_APIs.md
+src: ./pages/journey_platform-specific_APIs.md
 ---
 
 ---
