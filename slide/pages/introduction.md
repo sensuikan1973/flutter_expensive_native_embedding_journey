@@ -22,6 +22,12 @@ https://docs.flutter.dev/development/platform-integration/macos/c-interop
 src: ./pages/summary.md
 ---
 
+---
+
+<PageTitleHeader section="Introduction" title="Topic"/>
+
+---
+
 
 <PageTitleHeader section="Introduction" title="Use Case"/>
 
@@ -63,20 +69,3 @@ journey
     platform channels: 3: developer
     isolate platform channels : 5: developer
 ```
-
----
-layout: two-cols
----
-
-<PageTitleHeader section="Introduction" title="Impact"/>
-
-## Changes: <Term val="native C APIs"/>
-<br/>
-
-aaa
-
-::right::
-
-## Changes: <Term val="platform-specific APIs"/>
-
-aaa
