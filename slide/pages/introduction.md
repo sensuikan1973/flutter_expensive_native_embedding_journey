@@ -31,7 +31,7 @@ In Flutter, We are getting the way to embedd logic calls <Term val="platform-spe
 
 ↓
 
-Then, **We can product high-perofrmance apps which have _Native_ logic** :-)
+Then, **We can product high-perofrmance apps which have _Expensive_ _Native_ logic** :-)
 
 ---
 
