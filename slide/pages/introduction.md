@@ -19,6 +19,21 @@ https://docs.flutter.dev/development/platform-integration/macos/c-interop
 -->
 
 ---
+layout: center
+align: center
+---
+
+<PageTitleHeader section="Introduction" title="Subejct of this presentation"/>
+
+In Flutter, We got the smart way to embedd logic calls <Term val="native C APIs"/> with the benefit of dart:ffi.
+
+In Flutter, We are getting the way to embedd logic calls <Term val="platform-specific APIs"/> with the benefit of Isolate Platform Channels.
+
+↓
+
+Then, **We can product high-perofrmance apps which have _Native_ logic** :-)
+
+---
 
 <PageTitleHeader section="Introduction" title="Use Case"/>
 
