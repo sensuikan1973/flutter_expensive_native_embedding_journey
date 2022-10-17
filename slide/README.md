@@ -12,6 +12,7 @@ npm run upgrade_deps
 ## References
 
 - [slidev](https://sli.dev/)
+  - [showcases](https://sli.dev/showcases.html)
   - [components](https://sli.dev/builtin/components.html)
     - [builtin components](https://github.com/slidevjs/slidev/tree/main/packages/client/builtin)
   - [layouts](https://github.com/slidevjs/slidev/blob/main/packages/client/layouts/)

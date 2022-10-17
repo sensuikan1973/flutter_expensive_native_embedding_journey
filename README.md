@@ -23,4 +23,13 @@ Slide and Investigation for ["Flutter Expensive Native Embedding Journey"](https
 - [Google Cloud Text-to-Speech](https://cloud.google.com/text-to-speech/)
 - Flutter
   - [Writing platform-specific code](https://docs.flutter.dev/development/platform-integration/platform-channels)
-  - [flutter Isolate Platform Channels](https://github.com/flutter/flutter/issues/13937#issuecomment-1203232254)
+  - [Unable to call a platform channel method from another isolate](https://github.com/flutter/flutter/issues/13937)
+    - [flutter Isolate Platform Channels](https://github.com/flutter/flutter/issues/13937#issuecomment-1203232254)
+      - [flutter/website | Updated the platform channels documentation for background isolate channels](https://github.com/flutter/website/pull/7592)
+      - [gaaclarke/background_isolate_channels_sample](https://github.com/gaaclarke/background_isolate_channels_sample)
+  - dart:ffi
+    - [Binding to native macOS code using dart:ffi](https://docs.flutter.dev/development/platform-integration/macos/c-interop)
+    - [Binding to native iOS code using dart:ffi](https://docs.flutter.dev/development/platform-integration/ios/c-interop)
+    - [Binding to native Android code using dart:ffi](https://docs.flutter.dev/development/platform-integration/android/c-interop)
+- Others
+  - [What does "costly" mean in terms of software operations?](https://stackoverflow.com/a/9888431)
