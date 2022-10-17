@@ -1,4 +1,4 @@
-<PageTitleHeader section="Introduction" title="Term Definition"/>
+<PageTitleHeader section="Introduction" title="UniqueTerm Definition"/>
 
 ## What is **_Expensive_** here ?
 
@@ -7,8 +7,8 @@ e.g. Connection to remote server, Huge Numerical computation, ...
 
 ## What is **_Native_** here ?
 
-- ① <Term val="native C APIs"/> <br> <small>on **Android/iOS/macOS**</small>
-- ② <Term val="platform-specific APIs"/> <br> <small>(Kotlin/Java on Android, Swift/Objective-C on iOS, C++ on Windows, Objective-C on macOS, C on Linux)</small>
+- ① <UniqueTerm val="native C APIs"/> <br> <small>on **Android/iOS/macOS**</small>
+- ② <UniqueTerm val="platform-specific APIs"/> <br> <small>(Kotlin/Java on Android, Swift/Objective-C on iOS, C++ on Windows, Objective-C on macOS, C on Linux)</small>
 
 <!--
 https://docs.flutter.dev/development/platform-integration/platform-channels
@@ -26,46 +26,16 @@ src: ./pages/summary.md
 
 <PageTitleHeader section="Introduction" title="Topic"/>
 
----
+### Topic of calling <UniqueTerm val="native C APIs"/>
 
+● Use case  
+● Journey Overview  
+● Past Issue  
+● Changes by <TechnicalTerm val="dart:ffi"/>
 
-<PageTitleHeader section="Introduction" title="Use Case"/>
+### Topic of calling <UniqueTerm val="platform-specific APIs"/>
 
-## Use Case of <Term val="native C APIs"/>
-
-aa
-
----
-
-<PageTitleHeader section="Introduction" title="Use Case"/>
-
-## Use Case of <Term val="platform-specific APIs"/>
-
-aa
-
----
-layout: two-cols
----
-<!-- https://github.com/slidevjs/slidev/blob/main/packages/client/layouts/two-cols.vue -->
-
-<PageTitleHeader section="Introduction" title="Journey Overview"/>
-
-## Journey: <Term val="native C APIs"/>
-<br/>
-
-```mermaid {scale: 0.6}
-journey
-    platform channels: 3: developer
-    dart#58;ffi : 5: developer
-```
-<!-- https://mermaid-js.github.io/mermaid/#/./flowchart?id=entity-codes-to-escape-characters -->
-
-::right::
-
-## Journey: <Term val="platform-specific APIs"/>
-
-```mermaid {scale: 0.6}
-journey
-    platform channels: 3: developer
-    isolate platform channels : 5: developer
-```
+● Use case  
+● Journey Overview  
+● Current Issue  
+● Future Changes by <TechnicalTerm val="Isolate Platform Channels"/>

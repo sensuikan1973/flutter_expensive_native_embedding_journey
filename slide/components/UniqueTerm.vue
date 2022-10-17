@@ -7,5 +7,5 @@ const val = ref(props.val);
 </script>
 
 <template>
-  <span class="term">{{ val }}</span>
+  <span class="unique_term">{{ val }}</span>
 </template>
