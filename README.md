@@ -22,6 +22,7 @@ Slide and Investigation for ["Flutter Expensive Native Embedding Journey"](https
     - [sbis04/flutter_docker](https://github.com/sbis04/flutter_docker)
 - Flutter
   - [Writing platform-specific code](https://docs.flutter.dev/development/platform-integration/platform-channels)
+    - [Channels and platform threading (iOS, Android)](https://docs.flutter.dev/development/platform-integration/platform-channels#channels-and-platform-threading)
   - [Unable to call a platform channel method from another isolate](https://github.com/flutter/flutter/issues/13937)
     - [flutter Isolate Platform Channels](https://github.com/flutter/flutter/issues/13937#issuecomment-1203232254)
       - [flutter/website | Updated the platform channels documentation for background isolate channels](https://github.com/flutter/website/pull/7592)
