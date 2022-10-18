@@ -1,6 +1,5 @@
 ---
 layout: center
-# align: center
 ---
 
 <PageTitleHeader section="calling native C APIs" title="Use Case"/>
