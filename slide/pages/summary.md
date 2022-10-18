@@ -9,4 +9,4 @@ layout: center
 
 <div align="center">↓</div>
 
-**I can product high perofrmance apps have _Expensive_ _Native_ logic with Dart Isolate** :-)
+**I can product high perofrmance apps have <UniqueTerm val="Expensive"/> <UniqueTerm val="Native"/> logic with Dart Isolate** :-)

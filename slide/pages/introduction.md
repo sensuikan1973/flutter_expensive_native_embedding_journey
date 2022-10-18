@@ -1,11 +1,11 @@
 <PageTitleHeader section="Introduction" title="UniqueTechnicalTerm Definition"/>
 
-## What is **_Expensive_** here ?
+## What is **<UniqueTerm val="Expensive"/>** here ?
 
 Operations require a lot of CPU, Memory and Running Time.  
 e.g. Connection to remote server, Huge Numerical computation, ...
 
-## What is **_Native_** here ?
+## What is **<UniqueTerm val="Native"/>** here ?
 
 - ① <UniqueTechnicalTerm val="native C APIs"/> <br> <small>on **Android/iOS/macOS**</small>
 - ② <UniqueTechnicalTerm val="platform-specific APIs"/> <br> <small>(Kotlin/Java on Android, Swift/Objective-C on iOS, C++ on Windows, Objective-C on macOS, C on Linux)</small>
