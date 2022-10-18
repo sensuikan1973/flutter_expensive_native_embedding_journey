@@ -19,15 +19,15 @@ TODO: aaa
 
 ## Past Issue
 
-I have to call native C APIS **via <a href="https://docs.flutter.dev/development/platform-integration/platform-channels" target="_blank"><TechnicalTerm val="Platform Channels"/></a>**.  
+I have to call <UniqueTerm val="native C APIs"/>  **via <a href="https://docs.flutter.dev/development/platform-integration/platform-channels" target="_blank"><TechnicalTerm val="Platform Channels"/></a>**.  
 As stated by [Dart VM FFI Vision written by Google dart-lang Team Engineer](https://gist.github.com/mraleph/2582b57737711da40262fad71215d62e), there are two issues.
 
 ● The amount of implementation  
 I have to write a lot of glue code in both Dart and a respective platform language.
 
-● performance: Platform Channels overhead  
+● performance: <TechnicalTerm val="Platform Channels"/> overhead  
 Not only is there an overhead, but [background thread support is not available except for iOS and Android](https://docs.flutter.dev/development/platform-integration/platform-channels#channels-and-platform-threading).  
-Then, If I want to use native C APIs on macOS/Windows/Linux with background thread, I would struggle to improve my performance.
+Then, If I want to use <UniqueTerm val="native C APIs"/>  on macOS/Windows/Linux with background thread, I would struggle to improve my performance.
 
 ---
 
