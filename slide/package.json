@@ -23,8 +23,10 @@
     "slidev-theme-geist": "^0.8.1"
   },
   "devDependencies": {
+    "@iconify-json/bi": "^1.1.8",
+    "@iconify-json/la": "^1.1.2",
+    "npm-check-updates": "^16.3.13",
     "playwright-chromium": "^1.27.1",
-    "prettier": "^2.7.1",
-    "npm-check-updates": "^16.3.13"
+    "prettier": "^2.7.1"
   }
 }
