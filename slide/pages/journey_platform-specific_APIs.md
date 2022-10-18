@@ -17,7 +17,7 @@ TODO: aaa
 
 <PageTitleHeader section="calling platform-specific APIs" title="Issues"/>
 
-## Current Issue
+## Issues
 
 It's heavy to implement _Expensive_ logic to call <UniqueTerm val="platform-specific APIs"/>.  
 It's because <TechnicalTerm val="Platform Channels"/> can't be used from all isolates and occupy UI thread.

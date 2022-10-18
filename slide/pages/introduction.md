@@ -30,12 +30,12 @@ src: ./pages/summary.md
 
 ● Use Case  
 ● Journey Overview  
-● Past Issue  
+● Issues  
 ● Impact by <TechnicalTerm val="dart:ffi"/>
 
 ### Topic of calling <UniqueTerm val="platform-specific APIs"/>
 
 ● Use Case  
 ● Journey Overview  
-● Current Issue  
+● Issues
 ● (Future) Impact by <TechnicalTerm val="Isolate Platform Channels"/>
