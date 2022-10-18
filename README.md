@@ -37,4 +37,5 @@ Slide and Investigation for ["Flutter Expensive Native Embedding Journey"](https
 - Others
   - [What does "costly" mean in terms of software operations?](https://stackoverflow.com/a/9888431)
   - [sensuikan1973 | FFI in Flutter/Dart](https://speakerdeck.com/sensuikan1973/dart)
+  - [sensuikan1973 | pedax: high performance desktop app with benefit of `dart:ffi`](https://github.com/sensuikan1973/pedax)
   - [Google Cloud Text-to-Speech](https://cloud.google.com/text-to-speech/)
