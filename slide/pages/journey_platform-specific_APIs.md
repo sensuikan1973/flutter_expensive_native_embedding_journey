@@ -2,7 +2,8 @@
 
 ## Use Case
 
-TODO: aaa
+As the term implies, it is used to call <UniqueTerm val="platform-specific APIs"/>.  
+A few examples include the use of [security-scoped bookmarks](https://pub.dev/packages/macos_secure_bookmarks) and [file_selector](https://pub.dev/packages/file_selector).
 
 ---
 
