@@ -11,4 +11,4 @@ In Flutter, I'm getting the way to embed logic calls <UniqueTerm val="platform-s
 
 ↓
 
-Then, **We can product high-perofrmance apps which have _Expensive_ _Native_ logic** :-)
+Then, **We can product high perofrmance apps which have _Expensive_ _Native_ logic with Dart Isolate** :-)
