@@ -28,14 +28,14 @@ src: ./pages/summary.md
 
 ### Topic of calling <UniqueTerm val="native C APIs"/>
 
-● Call Motivation  
+● Use Case  
 ● Journey Overview  
 ● Past Issue  
 ● Impact by <TechnicalTerm val="dart:ffi"/>
 
 ### Topic of calling <UniqueTerm val="platform-specific APIs"/>
 
-● Call Motivation  
+● Use Case  
 ● Journey Overview  
 ● Current Issue  
 ● (Future) Impact by <TechnicalTerm val="Isolate Platform Channels"/>

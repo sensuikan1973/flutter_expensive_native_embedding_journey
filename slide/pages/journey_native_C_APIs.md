@@ -1,8 +1,8 @@
-<PageTitleHeader section="calling native C APIs" title="Call Motivation"/>
+<PageTitleHeader section="calling native C APIs" title="Use Case"/>
 
-## Call Motivation
+## Use Case
 
-TODO: aaa
+Often I want to use an existing C based library that is difficult to replace and is often highly optimized.
 
 ---
 
