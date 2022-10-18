@@ -3,7 +3,7 @@
 ## Use Case
 
 Often I want to use an existing C based library that is difficult to replace and is often highly optimized.  
-popular examples: [realm](https://github.com/realm/realm-core), [opencv](https://opencv.org/), ...
+A few examples include the use of [realm](https://github.com/realm/realm-core) and [opencv](https://opencv.org/).
 
 ---
 
