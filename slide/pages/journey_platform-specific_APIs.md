@@ -20,7 +20,7 @@ TODO: aaa
 ## Current Issue
 
 It's difficult to implement _Expensive_ logic to call <UniqueTerm val="platform-specific APIs"/>.  
-It's because <TechnicalTerm val="Platform Channels"/> can't be able to be used from all isolates and occupy UI thread.
+It's because <TechnicalTerm val="Platform Channels"/> can't be used from all isolates and occupy UI thread.
 
 ---
 
