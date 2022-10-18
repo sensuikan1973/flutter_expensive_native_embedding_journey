@@ -1,6 +1,6 @@
-<PageTitleHeader section="calling native C APIs" title="Use Case"/>
+<PageTitleHeader section="calling native C APIs" title="Call Motivation"/>
 
-## Use Case
+## Call Motivation
 
 TODO: aaa
 

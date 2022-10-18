@@ -1,6 +1,6 @@
-<PageTitleHeader section="calling platform-specific APIs" title="Use Case"/>
+<PageTitleHeader section="calling platform-specific APIs" title="Call Motivation"/>
 
-## Use Case
+## Call Motivation
 
 TODO: aaa
 
