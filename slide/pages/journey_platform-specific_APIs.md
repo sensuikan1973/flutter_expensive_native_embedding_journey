@@ -19,7 +19,8 @@ TODO: aaa
 
 ## Current Issue
 
-There're two issues, because it's [unable to call a platform channel method from another isolate](https://github.com/flutter/flutter/issues/13937).
+It's difficult to implement _Expensive_ logic to call <UniqueTerm val="platform-specific APIs"/>.  
+It's because <TechnicalTerm val="Platform Channels"/> can't be able to be used from all isolates and occupy UI thread.
 
 ---
 
