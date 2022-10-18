@@ -19,7 +19,7 @@ TODO: aaa
 
 ## Current Issue
 
-TODO: aaa
+There're two issues, because it's [unable to call a platform channel method from another isolate](https://github.com/flutter/flutter/issues/13937).
 
 ---
 
