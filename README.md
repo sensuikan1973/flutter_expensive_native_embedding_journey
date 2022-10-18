@@ -20,7 +20,6 @@ Slide and Investigation for ["Flutter Expensive Native Embedding Journey"](https
 - dockerize flutter app
   - [Codemagic | How to dockerize Flutter apps](https://blog.codemagic.io/how-to-dockerize-flutter-apps/)
     - [sbis04/flutter_docker](https://github.com/sbis04/flutter_docker)
-- [Google Cloud Text-to-Speech](https://cloud.google.com/text-to-speech/)
 - Flutter
   - [Writing platform-specific code](https://docs.flutter.dev/development/platform-integration/platform-channels)
   - [Unable to call a platform channel method from another isolate](https://github.com/flutter/flutter/issues/13937)
@@ -37,3 +36,4 @@ Slide and Investigation for ["Flutter Expensive Native Embedding Journey"](https
 - Others
   - [What does "costly" mean in terms of software operations?](https://stackoverflow.com/a/9888431)
   - [sensuikan1973 | FFI in Flutter/Dart](https://speakerdeck.com/sensuikan1973/dart)
+  - [Google Cloud Text-to-Speech](https://cloud.google.com/text-to-speech/)
