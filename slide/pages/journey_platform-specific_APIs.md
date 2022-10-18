@@ -15,7 +15,7 @@ TODO: aaa
 
 ---
 
-<PageTitleHeader section="calling platform-specific APIs" title="Past Issue"/>
+<PageTitleHeader section="calling platform-specific APIs" title="Issues"/>
 
 ## Current Issue
 

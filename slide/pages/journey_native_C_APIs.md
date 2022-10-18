@@ -15,7 +15,7 @@ TODO: aaa
 
 ---
 
-<PageTitleHeader section="calling native C APIs" title="Past Issue"/>
+<PageTitleHeader section="calling native C APIs" title="Issues"/>
 
 ## Past Issue
 

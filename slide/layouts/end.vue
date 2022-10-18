@@ -1,13 +1,17 @@
 <template>
-  <div class="slidev-layout end">END</div>
-  <div>
-    See
-    <a
-      href="https://github.com/sensuikan1973/flutter_expensive_native_embedding_journey#references"
-      target="_blank"
-      >GitHub</a
-    >
-    for References.
+  <div class="slidev-layout end">
+    END
+    <br />
+    <br />
+    <small>
+      See
+      <a
+        href="https://github.com/sensuikan1973/flutter_expensive_native_embedding_journey#references"
+        target="_blank"
+        >GitHub</a
+      >
+      for References.
+    </small>
   </div>
 </template>
 
