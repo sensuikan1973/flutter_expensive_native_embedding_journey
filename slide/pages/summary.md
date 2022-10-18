@@ -4,8 +4,8 @@ layout: center
 
 <PageTitleHeader section="Introduction" title="Summary"/>
 
-● I got the smart way to embed logic calls <UniqueTerm val="native C APIs"/> with the benefit of <TechnicalTerm val="dart:ffi"/>.  
-● I'm getting the way to embed logic calls <UniqueTerm val="platform-specific APIs"/> with the benefit of <TechnicalTerm val="Isolate Platform Channels"/>.
+● I got the smart way to embed logic calls <UniqueTechnicalTerm val="native C APIs"/> with the benefit of <TechnicalTerm val="dart:ffi"/>.  
+● I'm getting the way to embed logic calls <UniqueTechnicalTerm val="platform-specific APIs"/> with the benefit of <TechnicalTerm val="Isolate Platform Channels"/>.
 
 <div align="center">↓</div>
 

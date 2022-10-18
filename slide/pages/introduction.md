@@ -1,4 +1,4 @@
-<PageTitleHeader section="Introduction" title="UniqueTerm Definition"/>
+<PageTitleHeader section="Introduction" title="UniqueTechnicalTerm Definition"/>
 
 ## What is **_Expensive_** here ?
 
@@ -7,8 +7,8 @@ e.g. Connection to remote server, Huge Numerical computation, ...
 
 ## What is **_Native_** here ?
 
-- ① <UniqueTerm val="native C APIs"/> <br> <small>on **Android/iOS/macOS**</small>
-- ② <UniqueTerm val="platform-specific APIs"/> <br> <small>(Kotlin/Java on Android, Swift/Objective-C on iOS, C++ on Windows, Objective-C on macOS, C on Linux)</small>
+- ① <UniqueTechnicalTerm val="native C APIs"/> <br> <small>on **Android/iOS/macOS**</small>
+- ② <UniqueTechnicalTerm val="platform-specific APIs"/> <br> <small>(Kotlin/Java on Android, Swift/Objective-C on iOS, C++ on Windows, Objective-C on macOS, C on Linux)</small>
 
 <!--
 https://docs.flutter.dev/development/platform-integration/platform-channels
@@ -26,14 +26,14 @@ src: ./pages/summary.md
 
 <PageTitleHeader section="Introduction" title="Topic"/>
 
-### Topic of calling <UniqueTerm val="native C APIs"/>
+### Topic of calling <UniqueTechnicalTerm val="native C APIs"/>
 
 ● Use Case  
 ● Journey Overview  
 ● Issues  
 ● Impact by <TechnicalTerm val="dart:ffi"/>
 
-### Topic of calling <UniqueTerm val="platform-specific APIs"/>
+### Topic of calling <UniqueTechnicalTerm val="platform-specific APIs"/>
 
 ● Use Case  
 ● Journey Overview  
