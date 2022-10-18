@@ -37,5 +37,5 @@ src: ./pages/summary.md
 
 ● Use Case  
 ● Journey Overview  
-● Issues
+● Issues  
 ● (Future) Impact by <TechnicalTerm val="Isolate Platform Channels"/>
