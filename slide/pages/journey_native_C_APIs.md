@@ -15,11 +15,14 @@ A few examples include the use of [realm](https://github.com/realm/realm-core) a
 
 ## Journey Overview
 
-```mermaid {scale: 0.6}
+```mermaid {scale: 0.7}
 journey
-    via「Platform Channels」: 3
-    with「dart#58;ffi」 : 6
-    +「ffigen」 : 7
+    section Beginning
+        via「Platform Channels」: 3
+    section Big Impact of Performance
+        with「dart#58;ffi」 : 6
+    section Small Impact of glude code
+        +「ffigen」 : 7
 ```
 <!-- https://mermaid-js.github.io/mermaid/#/./flowchart?id=entity-codes-to-escape-characters -->
 
