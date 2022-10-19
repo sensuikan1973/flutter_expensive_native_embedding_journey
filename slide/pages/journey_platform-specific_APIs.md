@@ -11,11 +11,15 @@ A few examples include the use of [security-scoped bookmarks](https://pub.dev/pa
 
 ---
 
-<PageTitleHeader section="calling platform-specific APIs" title="Journey Overview"/>
+<PageTitleHeader section="calling native C APIs" title="Journey Overview"/>
 
 ## Journey Overview
 
-TODO: aaa
+```mermaid {scale: 0.6}
+journey
+    with「Platform Channels」: 3
+    with「Isolate Platform Channels」 : 6
+```
 
 ---
 
