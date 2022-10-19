@@ -27,6 +27,7 @@ Slide and Investigation for ["Flutter Expensive Native Embedding Journey"](https
     - [flutter Isolate Platform Channels](https://github.com/flutter/flutter/issues/13937#issuecomment-1203232254)
       - [flutter/website | Updated the platform channels documentation for background isolate channels](https://github.com/flutter/website/pull/7592)
       - [gaaclarke/background_isolate_channels_sample](https://github.com/gaaclarke/background_isolate_channels_sample)
+    - [[Discussion] A communication channel between an isolate and platform code on an arbitrary thread](https://github.com/flutter/flutter/issues/29081)
   - [Support integrating with C/C++ in plugin framework](https://github.com/flutter/flutter/issues/7053)
   - dart:ffi
     - [Dart VM FFI Vision](https://gist.github.com/mraleph/2582b57737711da40262fad71215d62e)
