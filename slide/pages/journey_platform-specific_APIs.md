@@ -54,4 +54,4 @@ Especially, If I want to call <UniqueTerm val="Expensive"/> <UniqueTechnicalTerm
 
 ## (Future) Performance Impact by <TechnicalTerm val="Isolate Platform Channels"/>
 
-I can call <UniqueTerm val="Expensive"/> <UniqueTechnicalTerm val="calling platform-specific APIs"/> in background threads, Because I can **spawn isolate** with <TechnicalTerm val="dart:ffi"/>.
+I can call <UniqueTerm val="Expensive"/> <UniqueTechnicalTerm val="calling platform-specific APIs"/> in background threads, Because I can **spawn isolate**.
