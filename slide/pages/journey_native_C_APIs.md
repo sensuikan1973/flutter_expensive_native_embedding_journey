@@ -10,12 +10,15 @@ Often I want to use an existing C based library that is difficult to replace and
 A few examples include the use of [realm](https://github.com/realm/realm-core) and [opencv](https://opencv.org/).
 
 ---
+layout: two-cols
+---
+<!-- https://github.com/slidevjs/slidev/blob/main/packages/client/layouts/two-cols.vue -->
 
 <PageTitleHeader section="calling native C APIs" title="Journey Overview"/>
 
 ## Journey Overview
 
-```mermaid {scale: 0.7}
+```mermaid {scale: 0.6}
 journey
     section Beginning
         via「Platform Channels」: 3
@@ -25,6 +28,20 @@ journey
         +「ffigen」 : 7
 ```
 <!-- https://mermaid-js.github.io/mermaid/#/./flowchart?id=entity-codes-to-escape-characters -->
+
+::right::
+
+<br/>
+<br/>
+<br/>
+<br/>
+<div style="margin-left: 5em; font-size: xx-small">
+    <div>[supplement]</div>
+    <div><TechnicalTerm val="dart:ffi"/> Architecture Overview</div>
+    <img src="https://github.com/dart-lang/sdk/raw/master/samples/ffi/sqlite/docs/lib/scenario-default.svg" width="350"/>
+    <br/>
+    <a href="https://github.com/dart-lang/sdk/blob/master/samples/ffi/sqlite/docs/sqlite-tutorial.md#architecture-overview">ref: "dart-lang/sdk | dart:ffi SQLite mini tutorial | Architecture Overview"</a>
+</div>
 
 ---
 
