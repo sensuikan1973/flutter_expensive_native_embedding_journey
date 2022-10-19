@@ -50,16 +50,11 @@ journey
 
 <PageTitleHeader section="calling native C APIs" title="Issues"/>
 
-## Issues at Beginning
+## Performance Issue at Beginning
 
 I had to use <a href="https://docs.flutter.dev/development/platform-integration/platform-channels" target="_blank"><TechnicalTerm val="Platform Channels"/></a> to call <UniqueTechnicalTerm val="native C APIs"/>.  
-There are two issues.
 <!-- [Dart VM FFI Vision written by Google dart-lang Team Engineer](https://gist.github.com/mraleph/2582b57737711da40262fad71215d62e) -->
 
-● A lot of glue code  
-I have to write a lot of glue code in both Dart and a respective platform language.
-
-● Performance  
 Not only there is an **overhead** to call <TechnicalTerm val="Platform Channels"/>, but [Executing channel handlers on background threads](https://docs.flutter.dev/development/platform-integration/platform-channels#channels-and-platform-threading) isn't supported except for iOS and Android.  
 Especially, If I want to call <UniqueTerm val="Expensive"/> <UniqueTechnicalTerm val="native C APIs"/> on macOS/Windows/Linux without UI lag, I would struggle to improve my performance.
 
@@ -71,7 +66,7 @@ Especially, If I want to call <UniqueTerm val="Expensive"/> <UniqueTechnicalTerm
 
 I don't have to use <TechnicalTerm val="Platform Channels"/>, because I can use <TechnicalTerm val="dart:ffi"/> to call <UniqueTechnicalTerm val="native C APIs"/>.
 
-● Amount of implementation  
+● Reduction of glude code  
 I don't have to write a lot of glue code in respective platform language.
 
 ● Performance  
