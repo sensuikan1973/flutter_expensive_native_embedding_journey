@@ -35,7 +35,7 @@ As stated by [Dart VM FFI Vision written by Google dart-lang Team Engineer](http
 ● Amount of implementation  
 I have to write a lot of glue code in both Dart and a respective platform language.
 
-● Performance
+● Performance  
 Not only there is an **overhead** to <TechnicalTerm val="Platform Channels"/>, but **[background thread support](https://docs.flutter.dev/development/platform-integration/platform-channels#channels-and-platform-threading)** is not available except for iOS and Android.  
 Especially, If I want to use <UniqueTechnicalTerm val="native C APIs"/> on macOS/Windows/Linux with background thread to implement <UniqueTerm val="Expensive"/> logic, I would struggle to improve my performance.
 
@@ -45,4 +45,7 @@ Especially, If I want to use <UniqueTechnicalTerm val="native C APIs"/> on macOS
 
 ## Impact by <TechnicalTerm val="dart:ffi"/>
 
-TODO: aaa
+● Amount of implementation  
+I don't have to write a lot of glue code in respective platform language.
+
+● Performance
