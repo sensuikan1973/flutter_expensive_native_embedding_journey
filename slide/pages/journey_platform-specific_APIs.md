@@ -43,8 +43,7 @@ journey
 
 ## Issues
 
-It's heavy to implement <UniqueTerm val="Expensive"/> logic to call <UniqueTechnicalTerm val="platform-specific APIs"/>.  
-It's because <TechnicalTerm val="Platform Channels"/> can't be used from all isolates and occupy UI thread.
+It's heavy to call <UniqueTerm val="Expensive"/> <UniqueTechnicalTerm val="platform-specific APIs"/> Because <TechnicalTerm val="Platform Channels"/> can't be used from all isolates and occupy UI thread.
 
 ---
 
