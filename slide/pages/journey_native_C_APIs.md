@@ -19,7 +19,7 @@ A few examples include the use of [realm](https://github.com/realm/realm-core) a
 journey
     via「Platform Channels」: 3
     with「dart#58;ffi」 : 6
-    with「ffigen」 : 7
+    +「ffigen」 : 7
 ```
 <!-- https://mermaid-js.github.io/mermaid/#/./flowchart?id=entity-codes-to-escape-characters -->
 
