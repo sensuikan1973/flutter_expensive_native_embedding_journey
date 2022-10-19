@@ -72,5 +72,4 @@ I don't have to use <TechnicalTerm val="Platform Channels"/>, because I can use 
 I don't have to write a lot of glue code in respective platform language.
 
 ● Performance  
-I can implement <UniqueTerm val="Expensive"/> logic with background thread.  
-(With <TechnicalTerm val="dart:ffi"/>, I can spawn isolate.)
+I can spawn isolate to run <UniqueTerm val="Expensive"/> logic with <TechnicalTerm val="dart:ffi"/>.  
