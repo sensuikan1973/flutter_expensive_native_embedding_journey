@@ -33,7 +33,8 @@ journey
 ## Issues at Beginning
 
 I had to use <a href="https://docs.flutter.dev/development/platform-integration/platform-channels" target="_blank"><TechnicalTerm val="Platform Channels"/></a> to call <UniqueTechnicalTerm val="native C APIs"/>.  
-As stated by [Dart VM FFI Vision written by Google dart-lang Team Engineer](https://gist.github.com/mraleph/2582b57737711da40262fad71215d62e), there are two issues.
+There are two issues.
+<!-- [Dart VM FFI Vision written by Google dart-lang Team Engineer](https://gist.github.com/mraleph/2582b57737711da40262fad71215d62e) -->
 
 ● Amount of implementation  
 I have to write a lot of glue code in both Dart and a respective platform language.
