@@ -36,7 +36,7 @@ I had to use <a href="https://docs.flutter.dev/development/platform-integration/
 There are two issues.
 <!-- [Dart VM FFI Vision written by Google dart-lang Team Engineer](https://gist.github.com/mraleph/2582b57737711da40262fad71215d62e) -->
 
-● A lot of Glue Code  
+● A lot of glue code  
 I have to write a lot of glue code in both Dart and a respective platform language.
 
 ● Performance  
