@@ -45,7 +45,11 @@ Especially, If I want to use <UniqueTechnicalTerm val="native C APIs"/> on macOS
 
 ## Impact by <TechnicalTerm val="dart:ffi"/>
 
+I don't have to use <TechnicalTerm val="Platform Channels"/>, because I can use <TechnicalTerm val="dart:ffi"/> to call <UniqueTechnicalTerm val="native C APIs"/>.
+
 ● Amount of implementation  
 I don't have to write a lot of glue code in respective platform language.
 
-● Performance
+● Performance  
+I can implement <UniqueTerm val="Expensive"/> logic with backround thread.  
+(With <TechnicalTerm val="dart:ffi"/>, I can spawn isolate.)
