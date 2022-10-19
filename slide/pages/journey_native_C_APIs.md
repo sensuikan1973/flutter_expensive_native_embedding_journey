@@ -62,12 +62,8 @@ Especially, If I want to call <UniqueTerm val="Expensive"/> <UniqueTechnicalTerm
 
 <PageTitleHeader section="calling native C APIs" title="Impact"/>
 
-## Impact by <TechnicalTerm val="dart:ffi"/>
+## Performance Impact by <TechnicalTerm val="dart:ffi"/>
 
 I don't have to use <TechnicalTerm val="Platform Channels"/>, because I can use <TechnicalTerm val="dart:ffi"/> to call <UniqueTechnicalTerm val="native C APIs"/>.
 
-● Reduction of glude code  
-I don't have to write a lot of glue code in respective platform language.
-
-● Performance  
 I can call <UniqueTerm val="Expensive"/> <UniqueTechnicalTerm val="native C APIs"/> in background threads, Because I can **spawn isolate** with <TechnicalTerm val="dart:ffi"/>.  
