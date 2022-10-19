@@ -18,8 +18,8 @@ A few examples include the use of [security-scoped bookmarks](https://pub.dev/pa
 ```mermaid {scale: 0.6}
 journey
     with「Platform Channels」: 3
-    +「Pigeon」:4
-    +「Isolate Platform Channels」 : 6
+    +「Pigeon」: 4
+    +「Isolate Platform Channels」 : 7
 ```
 <!-- https://docs.flutter.dev/development/platform-integration/platform-channels#pigeon -->
 
