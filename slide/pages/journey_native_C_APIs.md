@@ -22,9 +22,9 @@ layout: two-cols
 journey
     section Beginning
         via「Platform Channels」: 3
-    section Big Impact of Performance
+    section Big impact of performance
         with「dart#58;ffi」 : 6
-    section Small Impact of glude code
+    section Impact of glude code
         +「ffigen」 : 7
 ```
 <!-- https://mermaid-js.github.io/mermaid/#/./flowchart?id=entity-codes-to-escape-characters -->

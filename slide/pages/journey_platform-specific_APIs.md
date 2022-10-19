@@ -18,6 +18,9 @@ A few examples include the use of [security-scoped bookmarks](https://pub.dev/pa
 <img src="https://docs.flutter.dev/assets/images/docs/PlatformChannels.png" width="250"/>
 
 ---
+layout: two-cols
+---
+<!-- https://github.com/slidevjs/slidev/blob/main/packages/client/layouts/two-cols.vue -->
 
 <PageTitleHeader section="calling platform-specific APIs" title="Journey Overview"/>
 
@@ -25,9 +28,12 @@ A few examples include the use of [security-scoped bookmarks](https://pub.dev/pa
 
 ```mermaid {scale: 0.6}
 journey
-    with「Platform Channels」: 3
-    +「Pigeon」: 4
-    +「Isolate Platform Channels」 : 7
+    section Beginning
+        with「Platform Channels」: 3
+    section Impact of glude code
+        +「Pigeon」: 4
+    section Big impact of performance
+        +「Isolate Platform Channels」 : 7
 ```
 <!-- https://docs.flutter.dev/development/platform-integration/platform-channels#pigeon -->
 
