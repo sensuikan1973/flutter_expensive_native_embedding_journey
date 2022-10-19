@@ -60,7 +60,7 @@ There are two issues.
 I have to write a lot of glue code in both Dart and a respective platform language.
 
 ● Performance  
-Not only there is an **overhead** to call <TechnicalTerm val="Platform Channels"/>, but **[Executing channel handlers on background threads](https://docs.flutter.dev/development/platform-integration/platform-channels#channels-and-platform-threading)** is not supported except for iOS and Android.  
+Not only there is an **overhead** to call <TechnicalTerm val="Platform Channels"/>, but [Executing channel handlers on background threads](https://docs.flutter.dev/development/platform-integration/platform-channels#channels-and-platform-threading) isn't supported except for iOS and Android.  
 Especially, If I want to call <UniqueTerm val="Expensive"/> <UniqueTechnicalTerm val="native C APIs"/> on macOS/Windows/Linux without UI lag, I would struggle to improve my performance.
 
 ---

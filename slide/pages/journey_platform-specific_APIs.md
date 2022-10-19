@@ -45,6 +45,9 @@ journey
 
 It's heavy to call <UniqueTerm val="Expensive"/> <UniqueTechnicalTerm val="platform-specific APIs"/> Because <TechnicalTerm val="Platform Channels"/> can't be used from all isolates and occupy UI thread.
 
+[Executing channel handlers on background threads](https://docs.flutter.dev/development/platform-integration/platform-channels#channels-and-platform-threading) isn't supported except for iOS and Android.  
+Especially, If I want to call <UniqueTerm val="Expensive"/> <UniqueTechnicalTerm val="native C APIs"/> on macOS/Windows/Linux without UI lag, I would struggle to improve my performance.
+
 ---
 
 <PageTitleHeader section="calling platform-specific APIs" title="Impact"/>
