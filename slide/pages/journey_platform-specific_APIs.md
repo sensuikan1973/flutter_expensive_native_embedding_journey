@@ -11,7 +11,7 @@ A few examples include the use of [security-scoped bookmarks](https://pub.dev/pa
 
 ---
 
-<PageTitleHeader section="calling native C APIs" title="Journey Overview"/>
+<PageTitleHeader section="calling platform-specific APIs" title="Journey Overview"/>
 
 ## Journey Overview
 
