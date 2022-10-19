@@ -35,6 +35,7 @@ Slide and Investigation for ["Flutter Expensive Native Embedding Journey"](https
     - [Binding to native iOS code using dart:ffi](https://docs.flutter.dev/development/platform-integration/ios/c-interop)
     - [Binding to native Android code using dart:ffi](https://docs.flutter.dev/development/platform-integration/android/c-interop)
     - [dart-lang/sdk | dart:ffi SQLite mini tutorial | Architecture Overview](https://github.com/dart-lang/sdk/blob/master/samples/ffi/sqlite/docs/sqlite-tutorial.md#architecture-overview)
+    - [ffigen](https://pub.dev/packages/ffigen)
 - Others
   - [What does "costly" mean in terms of software operations?](https://stackoverflow.com/a/9888431)
   - [sensuikan1973 | FFI in Flutter/Dart](https://speakerdeck.com/sensuikan1973/dart)
