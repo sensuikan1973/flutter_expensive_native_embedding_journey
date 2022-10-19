@@ -30,7 +30,7 @@ journey
 
 <PageTitleHeader section="calling native C APIs" title="Issues"/>
 
-## Issues
+## Issues at Beginning
 
 I had to call <UniqueTechnicalTerm val="native C APIs"/> via <a href="https://docs.flutter.dev/development/platform-integration/platform-channels" target="_blank"><TechnicalTerm val="Platform Channels"/></a>.  
 As stated by [Dart VM FFI Vision written by Google dart-lang Team Engineer](https://gist.github.com/mraleph/2582b57737711da40262fad71215d62e), there are two issues.
