@@ -81,7 +81,7 @@ flowchart LR
 
 <PageTitleHeader section="calling native C APIs" title="Issues"/>
 
-### How abot execute channel handlers on background?
+### How abot executing channel handlers on background?
 
 Unfortunately, not enough.  
 
