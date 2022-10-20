@@ -89,9 +89,9 @@ flowchart LR
     end
     S -->|spawn| S2
     S -->|spawn| S3
-    subgraph S2 ["Spawned#32;Isolate#32;as#32;server"]
+    subgraph S2 ["Spawned#32;Isolate"]
     end
-    subgraph S3 ["Spawned#32;Isolate#32;as#32;server"]
+    subgraph S3 ["Spawned#32;Isolate"]
     end
     S -->|response| M
 ```
