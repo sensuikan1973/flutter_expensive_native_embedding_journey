@@ -1,4 +1,4 @@
-<PageTitleHeader section="Introduction" title="UniqueTechnicalTerm Definition"/>
+<PageTitleHeader section="Introduction" title="Term Definition"/>
 
 ## What is **<UniqueTerm val="Expensive"/>** here ?
 
