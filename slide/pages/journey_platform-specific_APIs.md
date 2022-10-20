@@ -35,7 +35,7 @@ journey
     section Impact of glude code
         +「Pigeon」: 4
     section workaround for performance
-        +「e.g. flutter_isolate」 : 5
+        +「3rd package flutter_isolate」 : 5
     section Big impact of performance
         +「Isolate Platform Channels」 : 7
 ```
