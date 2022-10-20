@@ -5,6 +5,7 @@ publish_to: 'none'
 
 version: 1.0.0+1
 environment:
+  # https://github.com/gaaclarke/background_isolate_channels_sample/blob/9d1c0727a3564eb1475a5ac622c6c86c7bb597ee/pubspec.yaml#L9
   sdk: '>=2.19.0-224.0.dev <3.0.0'
 
 dependencies:
