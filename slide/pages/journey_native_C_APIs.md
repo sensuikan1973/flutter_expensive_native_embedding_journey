@@ -76,7 +76,7 @@ flowchart LR
     subgraph M ["Main#32;Isolate"]
     end
     M -->|spawn| S
-    subgraph S ["Spawned#32;Isolate#32;as#32;server"]
+    subgraph S ["Isolate#32;as#32;server"]
     end
 ```
 
@@ -85,7 +85,7 @@ flowchart LR
     subgraph M ["Main#32;Isolate"]
     end
     M -->|"request#32;heavy#32;native#32;C#32;APIs"| S
-    subgraph S ["Spawned#32;Isolate#32;as#32;server"]
+    subgraph S ["Isolate#32;as#32;server"]
     end
     S -->|spawn| S2
     S -->|spawn| S3
