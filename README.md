@@ -2,24 +2,8 @@
 
 Slide and Investigation for ["Flutter Expensive Native Embedding Journey"](https://fortee.jp/flutterkaigi-2022/proposal/d6a2b41c-e765-4d5f-845d-9290148cd880) at [FlutterKaigi 2022](https://flutterkaigi.jp/2022/).
 
+## References
 
----
-
-## For Developer
-
-### Setup (MacOS)
-
-```sh
-./scripts/setup_flutter.sh
-```
-
-### References
-
-- [FlutterKaigi](https://flutterkaigi.jp/2022/)
-  - [requirements](https://flutterkaigi.jp/flutterkaigi/Precautions-for-Recording.ja.html)
-- dockerize flutter app
-  - [Codemagic | How to dockerize Flutter apps](https://blog.codemagic.io/how-to-dockerize-flutter-apps/)
-    - [sbis04/flutter_docker](https://github.com/sbis04/flutter_docker)
 - Flutter
   - [Flutter architectural overview](https://docs.flutter.dev/resources/architectural-overview)
   - [Writing platform-specific code](https://docs.flutter.dev/development/platform-integration/platform-channels)
@@ -46,4 +30,16 @@ Slide and Investigation for ["Flutter Expensive Native Embedding Journey"](https
   - [What does "costly" mean in terms of software operations?](https://stackoverflow.com/a/9888431)
   - [sensuikan1973 | FFI in Flutter/Dart](https://speakerdeck.com/sensuikan1973/dart)
   - [sensuikan1973/pedax | Real world example: desktop app has native logic and background threading with `dart:ffi`](https://github.com/sensuikan1973/pedax)
+
+---
+
+## References for Presenter
+
+- [FlutterKaigi 2022](https://flutterkaigi.jp/2022/)
+  - [proposal cfp](https://fortee.jp/flutterkaigi-2022/speaker/proposal/cfp)
+  - [requirements](https://flutterkaigi.jp/flutterkaigi/Precautions-for-Recording.ja.html)
+- dockerize flutter app
+  - [Codemagic | How to dockerize Flutter apps](https://blog.codemagic.io/how-to-dockerize-flutter-apps/)
+    - [sbis04/flutter_docker](https://github.com/sbis04/flutter_docker)
+- Others
   - [Google Cloud Text-to-Speech](https://cloud.google.com/text-to-speech/)
