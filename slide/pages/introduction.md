@@ -7,7 +7,7 @@ e.g. Connection to remote server, Huge Numerical computation, ...
 
 ## What is **<UniqueTerm val="Native"/>** here ?
 
-- ① <UniqueTechnicalTerm val="native C APIs"/> <br> <small>on **Android/iOS/macOS**</small>
+- ① <UniqueTechnicalTerm val="native C APIs"/>
 - ② <UniqueTechnicalTerm val="platform-specific APIs"/> <br> <small>(Kotlin/Java on Android, Swift/Objective-C on iOS, C++ on Windows, Objective-C on macOS, C on Linux)</small>
 
 <!--
