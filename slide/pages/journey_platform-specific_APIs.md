@@ -56,7 +56,7 @@ journey
 
 <PageTitleHeader section="calling platform-specific APIs" title="Issues"/>
 
-## Current Perofrmance Issue
+## Current Performance Issue
 
 It's heavy to call <UniqueTerm val="Expensive"/> <UniqueTechnicalTerm val="platform-specific APIs"/> Because <TechnicalTerm val="Platform Channels"/> can't be used from all isolates and occupy UI thread.
 

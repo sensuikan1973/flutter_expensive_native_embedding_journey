@@ -42,5 +42,5 @@ https://docs.flutter.dev/development/platform-integration/macos/c-interop
 
 ● Use Case  
 ● Journey Overview  
-● Current Perofrmance Issue  
+● Current Performance Issue  
 ● (Future) Performance Impact by <TechnicalTerm val="Isolate Platform Channels"/>
