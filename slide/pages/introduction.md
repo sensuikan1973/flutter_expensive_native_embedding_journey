@@ -8,7 +8,16 @@ e.g. Connection to remote server, Huge Numerical computation, ...
 ## What is **<UniqueTerm val="Native"/>** here ?
 
 - ① <UniqueTechnicalTerm val="native C APIs"/>
+
+```c
+std::cout<<"Hello World !"<<std::endl;
+```
+
 - ② <UniqueTechnicalTerm val="platform-specific APIs"/> <br> <small>(Kotlin/Java on Android, Swift/Objective-C on iOS, C++ on Windows, Objective-C on macOS, C on Linux)</small>
+
+```swift
+URL(fileURLWithPath: "/path/to/xxx").bookmarkData(~) // macos. security-scoped bookmarks.
+```
 
 <!--
 https://docs.flutter.dev/development/platform-integration/platform-channels
