@@ -69,5 +69,31 @@ Especially, If I want to call <UniqueTerm val="Expensive"/> <UniqueTechnicalTerm
 I don't have to use <TechnicalTerm val="Platform Channels"/>, because I can use <TechnicalTerm val="dart:ffi"/> to call <UniqueTechnicalTerm val="native C APIs"/>.  
 I can call <UniqueTerm val="Expensive"/> <UniqueTechnicalTerm val="native C APIs"/> in background threads, Because I can **spawn isolate** with <TechnicalTerm val="dart:ffi"/>.  
 
-<!-- https://github.com/sensuikan1973/pedax/blob/main/lib/engine -->
-<!-- https://github.com/sensuikan1973/pedax/blob/main/lib/models/board_notifier.dart -->
+example: isolated server calls native C APIs (ref: [sensuikan1973/pedax](https://github.com/sensuikan1973/pedax))
+
+```mermaid
+flowchart LR
+    subgraph M ["Main#32;Isolate"]
+    end
+    M -->|spawn| S
+    subgraph S ["Spawned#32;Isolate#32;as#32;server"]
+    end
+```
+
+```mermaid
+flowchart LR
+    subgraph M ["Main#32;Isolate"]
+    end
+    M -->|"request#32;heavy#32;native#32;C#32;APIs"| S
+    subgraph S ["Spawned#32;Isolate#32;as#32;server"]
+    end
+    S -->|spawn| S2
+    S -->|spawn| S3
+    subgraph S2 ["Spawned#32;Isolate#32;as#32;server"]
+    end
+    subgraph S3 ["Spawned#32;Isolate#32;as#32;server"]
+    end
+    S -->|response| M
+```
+
+<!-- https://mermaid-js.github.io/mermaid/#/flowchart -->
