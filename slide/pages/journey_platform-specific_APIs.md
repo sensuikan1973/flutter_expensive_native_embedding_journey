@@ -28,14 +28,14 @@ layout: two-cols
 
 ## Journey Overview
 
-```mermaid {scale: 0.6}
+```mermaid {scale: 0.5}
 journey
     section Beginning
         with「Platform Channels」: 3
     section Impact of glude code
         +「Pigeon」: 4
     section workaround for performance
-        +「3rd package flutter_isolate」 : 5
+        +「3rd package flutter_isolate」 : 4
     section Big impact of performance
         +「Isolate Platform Channels」 : 7
 ```
