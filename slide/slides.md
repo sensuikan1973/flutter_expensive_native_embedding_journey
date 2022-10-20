@@ -20,7 +20,6 @@ favicon: https://avatars.githubusercontent.com/u/23427957
 at [FlutterKaigi 2022](https://flutterkaigi.jp/2022/)
 
 <div class="abs-br m-6 flex gap-2">
-  <span>sensuikan1973</span>
   <a href="https://github.com/sensuikan1973/flutter_expensive_native_embedding_journey/" target="_blank" alt="GitHub"
     class="text-xl icon-btn !border-none !hover:text-black">
     <carbon-logo-github />
