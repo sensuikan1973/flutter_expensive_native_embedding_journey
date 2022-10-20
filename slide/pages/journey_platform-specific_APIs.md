@@ -67,7 +67,7 @@ Especially, If we want to call <UniqueTerm val="Expensive"/> <UniqueTechnicalTer
 flowchart LR
     U1["Main#32;Isolate"] --> P["Platform#32;Channels"]
     P --> D["defaultBinaryMessenger"]
-    D --> P2["Platform side"]
+    D --> P2["Platform"]
     P2 -->|callback| U1
 ```
 <!-- https://github.com/flutter/flutter/blob/bbdf617034171ab1128a594fb24e1c72a09e072e/packages/flutter/lib/src/services/binding.dart#L82 -->
