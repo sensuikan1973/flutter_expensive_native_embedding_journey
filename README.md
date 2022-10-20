@@ -10,7 +10,7 @@ Slide and Investigation for ["Flutter Expensive Native Embedding Journey"](https
     - [Channels and platform threading (iOS, Android)](https://docs.flutter.dev/development/platform-integration/platform-channels#channels-and-platform-threading)
   - [Issue | Unable to call a platform channel method from another isolate](https://github.com/flutter/flutter/issues/13937)
     - [past Workaround](https://github.com/flutter/flutter/issues/13937#issuecomment-1155630152)
-    - [(Deprecated) Design Doc | FFI Platform Channels](https://docs.google.com/document/d/1QhCs6RnDHG9ltYDOx9jaPg-s4sxOTFMC_kt3AZdf25g)
+    - [Design Doc | FFI Platform Channels](https://docs.google.com/document/d/1QhCs6RnDHG9ltYDOx9jaPg-s4sxOTFMC_kt3AZdf25g)
     - [Design Doc | Isolate Platform Channels](https://github.com/flutter/flutter/issues/13937#issuecomment-1203232254)
       - [flutter/website | Updated the platform channels documentation for background isolate channels](https://github.com/flutter/website/pull/7592)
       - [flutter/engin | Started handling messages from background isolates for iOS](https://github.com/flutter/engine/pull/35174)
