@@ -106,12 +106,10 @@ flowchart LR
     M -->|"request#32;heavy#32;native#32;C#32;APIs"| S
     subgraph S ["Spwaned#32;Isolate#32;as#32;server"]
     end
-    S -->|spawn| S2 & S3 & S4
+    S -->|spawn| S2 & S3
     subgraph S2 ["Spawned#32;Isolate"]
     end
     subgraph S3 ["Spawned#32;Isolate"]
-    end
-    subgraph S4 ["Spawned#32;Isolate"]
     end
     S -->|response| M
 ```
