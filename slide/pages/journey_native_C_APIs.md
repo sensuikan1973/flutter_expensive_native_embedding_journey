@@ -104,7 +104,7 @@ flowchart LR
     subgraph M ["Main#32;Isolate"]
     end
     M -->|"request#32;heavy#32;native#32;C#32;APIs"| S
-    subgraph S ["Spwaned#32;Isolate#32;as#32;server"]
+    subgraph S ["Spawned#32;Isolate#32;as#32;server"]
     end
     S -->|spawn| S2 & S3
     subgraph S2 ["Spawned#32;Isolate"]
