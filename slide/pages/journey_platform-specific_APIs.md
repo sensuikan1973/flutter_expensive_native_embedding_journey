@@ -104,3 +104,4 @@ void _isolateWithPlatformAPIs(RootIsolateToken rootIsolateToken) async {
   SharedPreferences sharedPreferences = await SharedPreferences.getInstance();
 }
 ```
+<!-- https://github.com/flutter/website/blob/40204477a6bddc83c1aae7684b8d2db9563265a4/src/development/platform-integration/platform-channels.md#using-plugins-and-channels-from-background-isolates -->
