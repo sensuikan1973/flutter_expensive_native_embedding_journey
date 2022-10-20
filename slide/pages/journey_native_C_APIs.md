@@ -54,11 +54,11 @@ journey
 
 ## Performance Issue at Beginning
 
-I had to use <a href="https://docs.flutter.dev/development/platform-integration/platform-channels" target="_blank"><TechnicalTerm val="Platform Channels"/></a> to call <UniqueTechnicalTerm val="native C APIs"/>.  
+We had to use <a href="https://docs.flutter.dev/development/platform-integration/platform-channels" target="_blank"><TechnicalTerm val="Platform Channels"/></a> to call <UniqueTechnicalTerm val="native C APIs"/>.  
 <!-- [Dart VM FFI Vision written by Google dart-lang Team Engineer](https://gist.github.com/mraleph/2582b57737711da40262fad71215d62e) -->
 
 Not only there is an **overhead** to call <TechnicalTerm val="Platform Channels"/>, but [Executing channel handlers on background threads](https://docs.flutter.dev/development/platform-integration/platform-channels#channels-and-platform-threading) isn't supported except for iOS and Android.  
-Especially, If I want to call <UniqueTerm val="Expensive"/> <UniqueTechnicalTerm val="native C APIs"/> on macOS/Windows/Linux without UI lag, I would struggle to improve my performance.
+Especially, If We want to call <UniqueTerm val="Expensive"/> <UniqueTechnicalTerm val="native C APIs"/> on macOS/Windows/Linux without UI lag, We would struggle to improve my performance.
 
 ---
 
@@ -66,8 +66,8 @@ Especially, If I want to call <UniqueTerm val="Expensive"/> <UniqueTechnicalTerm
 
 ## Performance Impact by <TechnicalTerm val="dart:ffi"/>
 
-I don't have to use <TechnicalTerm val="Platform Channels"/>, because I can use <TechnicalTerm val="dart:ffi"/> to call <UniqueTechnicalTerm val="native C APIs"/>.  
-I can call <UniqueTerm val="Expensive"/> <UniqueTechnicalTerm val="native C APIs"/> in background threads, Because I can **spawn isolate** with <TechnicalTerm val="dart:ffi"/>.  
+We don't have to use <TechnicalTerm val="Platform Channels"/>, because I can use <TechnicalTerm val="dart:ffi"/> to call <UniqueTechnicalTerm val="native C APIs"/>.  
+We can call <UniqueTerm val="Expensive"/> <UniqueTechnicalTerm val="native C APIs"/> in background threads, Because I can **spawn isolate** with <TechnicalTerm val="dart:ffi"/>.  
 
 example: isolated server calls native C APIs (ref: [sensuikan1973/pedax](https://github.com/sensuikan1973/pedax))
 
