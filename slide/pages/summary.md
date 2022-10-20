@@ -7,4 +7,4 @@
 
 <div align="center" style="font-size: larger">↓</div>
 
-**I can product high perofrmance apps have <UniqueTerm val="Expensive"/> <UniqueTerm val="Native"/> logic with Dart Isolate** :-)
+**With Dart Isolate, I can product high perofrmance apps have <UniqueTerm val="Expensive"/> <UniqueTerm val="Native"/> logic without UI lag** :-)
