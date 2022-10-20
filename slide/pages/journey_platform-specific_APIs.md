@@ -72,7 +72,7 @@ Especially, If we want to call <UniqueTerm val="Expensive"/> <UniqueTechnicalTer
 ```mermaid
 flowchart LR
     M["Main#32;Isolate"] --> P["Platform#32;Channels"]
-    P --> D["defaultBinaryMessenger"]
+    P --> D["BinaryMessenger"]
     D --> P2["Platform"]
     P2 -->|callback| M
 ```
