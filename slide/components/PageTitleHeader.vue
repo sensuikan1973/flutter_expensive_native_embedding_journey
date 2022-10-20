@@ -2,7 +2,7 @@
 import { ref } from 'vue';
 const props = defineProps<{
   section: string;
-  title: string;
+  title?: string;
 }>();
 const section = ref(props.section);
 const title = ref(props.title);
@@ -11,7 +11,7 @@ const title = ref(props.title);
 <template>
   <div class="absolute top-0 left-0 p-2">
     <span style="font-size: 16px">{{ section }}</span>
-    :
+    <span v-if="title">: </span>
     <b style="font-size: 16px">{{ title }}</b>
   </div>
 </template>

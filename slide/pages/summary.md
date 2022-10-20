@@ -1,4 +1,4 @@
-<PageTitleHeader section="Introduction" title="Summary"/>
+<PageTitleHeader section="Summary"/>
 
 # Summary
 
