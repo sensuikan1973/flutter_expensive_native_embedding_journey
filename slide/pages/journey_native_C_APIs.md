@@ -86,7 +86,7 @@ flowchart LR
 ● [Executing channel handlers on background threads](https://docs.flutter.dev/development/platform-integration/platform-channels#channels-and-platform-threading) isn't supported except for iOS and Android.  
 Then, It's difficult to call <UniqueTerm val="Expensive"/> <UniqueTechnicalTerm val="native C APIs"/> on macOS/Windows/Linux without UI lag.
 
-● In the first place, our ideal is calling <UniqueTechnicalTerm val="native C APIs"/> **directly**.
+● In the first place, our ideal here is calling <UniqueTechnicalTerm val="native C APIs"/> **directly**.
 
 ---
 
