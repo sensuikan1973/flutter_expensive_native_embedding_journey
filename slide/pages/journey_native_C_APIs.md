@@ -81,7 +81,9 @@ flowchart LR
 
 <PageTitleHeader section="calling native C APIs" title="Issues"/>
 
-### Why not execute channel handlers on background?
+### How abot execute channel handlers on background?
+
+Unfortunately, not enough.  
 
 ● [Executing channel handlers on background threads](https://docs.flutter.dev/development/platform-integration/platform-channels#channels-and-platform-threading) isn't supported except for iOS and Android.  
 Then, It's difficult to call <UniqueTerm val="Expensive"/> <UniqueTechnicalTerm val="native C APIs"/> on macOS/Windows/Linux without UI lag.
