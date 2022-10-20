@@ -28,10 +28,6 @@ https://docs.flutter.dev/development/platform-integration/macos/c-interop
 -->
 
 ---
-src: ./pages/summary.md
----
-
----
 
 <PageTitleHeader section="Introduction" title="Topic"/>
 

@@ -1,3 +1,5 @@
+<PageTitleHeader section="calling native C APIs"/>
+
 # calling <UniqueTechnicalTerm val="native C APIs"/>
 
 ---

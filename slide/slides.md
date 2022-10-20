@@ -40,6 +40,10 @@ src: ./pages/introduction.md
 ---
 
 ---
+src: ./pages/summary.md
+---
+
+---
 src: ./pages/journey_native_C_APIs.md
 ---
 
