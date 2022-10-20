@@ -61,7 +61,19 @@ journey
 It's heavy to call <UniqueTerm val="Expensive"/> <UniqueTechnicalTerm val="platform-specific APIs"/> Because <TechnicalTerm val="Platform Channels"/> can't be used from all isolates and occupy UI thread.
 
 [Executing channel handlers on background threads](https://docs.flutter.dev/development/platform-integration/platform-channels#channels-and-platform-threading) isn't supported except for iOS and Android.  
-Especially, If We want to call <UniqueTerm val="Expensive"/> <UniqueTechnicalTerm val="native C APIs"/> on macOS/Windows/Linux without UI lag, We would struggle to improve my performance.
+Especially, If we want to call <UniqueTerm val="Expensive"/> <UniqueTechnicalTerm val="native C APIs"/> on macOS/Windows/Linux without UI lag, We would struggle to improve my performance.
+
+```mermaid
+flowchart LR
+    subgraph M ["Main#32;Isolate"]
+    end
+    M -->|Platform Channels| P
+    subgraph P ["Platform"]
+    end
+    P -->|JNI| N
+    subgraph N ["C APIs"]
+    end
+```
 
 ---
 

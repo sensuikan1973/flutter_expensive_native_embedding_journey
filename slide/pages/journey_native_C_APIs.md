@@ -56,8 +56,8 @@ journey
 We had to use <a href="https://docs.flutter.dev/development/platform-integration/platform-channels" target="_blank"><TechnicalTerm val="Platform Channels"/></a> to call <UniqueTechnicalTerm val="native C APIs"/> with a lot of glue code.  
 <!-- [Dart VM FFI Vision written by Google dart-lang Team Engineer](https://gist.github.com/mraleph/2582b57737711da40262fad71215d62e) -->
 
-Not only there is an **overhead** to call <TechnicalTerm val="Platform Channels"/>, but [Executing channel handlers on background threads](https://docs.flutter.dev/development/platform-integration/platform-channels#channels-and-platform-threading) isn't supported except for iOS and Android.  
-Especially, If We want to call <UniqueTerm val="Expensive"/> <UniqueTechnicalTerm val="native C APIs"/> on macOS/Windows/Linux without UI lag, We would struggle to improve my performance.
+Not only there is an **overhead** to call <UniqueTechnicalTerm val="native C APIs"/> via <TechnicalTerm val="Platform Channels"/>, but [Executing channel handlers on background threads](https://docs.flutter.dev/development/platform-integration/platform-channels#channels-and-platform-threading) isn't supported except for iOS and Android.  
+Especially, If we want to call <UniqueTerm val="Expensive"/> <UniqueTechnicalTerm val="native C APIs"/> on macOS/Windows/Linux without UI lag, We would struggle to improve performance.
 <!-- https://docs.google.com/document/d/1bD_tiN987fWEPtw7tjXHzqZVg_g9H95IS32Cm609VZ8/edit# -->
 
 example: Android
