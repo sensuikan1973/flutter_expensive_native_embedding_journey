@@ -2,6 +2,12 @@
 
 # calling <UniqueTechnicalTerm val="platform-specific APIs"/>
 
+```swift
+// macos example
+// security-scoped bookmarks
+URL(fileURLWithPath: "/path/to/xxx").bookmarkData(~)
+```
+
 ---
 
 <PageTitleHeader section="calling platform-specific APIs" title="Use Case"/>

@@ -2,6 +2,10 @@
 
 # calling <UniqueTechnicalTerm val="native C APIs"/>
 
+```c
+std::cout<<"Hello World !"<<std::endl;
+```
+
 ---
 
 <PageTitleHeader section="calling native C APIs" title="Use Case"/>
