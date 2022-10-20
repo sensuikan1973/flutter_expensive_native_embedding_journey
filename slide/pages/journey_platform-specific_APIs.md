@@ -65,10 +65,10 @@ Especially, If we want to call <UniqueTerm val="Expensive"/> <UniqueTechnicalTer
 
 ```mermaid
 flowchart LR
-    U1["Main#32;Isolate"] --> P["Platform#32;Channels"]
+    M["Main#32;Isolate"] --> P["Platform#32;Channels"]
     P --> D["defaultBinaryMessenger"]
     D --> P2["Platform"]
-    P2 -->|callback| U1
+    P2 -->|callback| M
 ```
 <!-- https://github.com/flutter/flutter/blob/bbdf617034171ab1128a594fb24e1c72a09e072e/packages/flutter/lib/src/services/binding.dart#L82 -->
 
@@ -76,6 +76,31 @@ flowchart LR
 
 <PageTitleHeader section="calling platform-specific APIs" title="Impact"/>
 
-## (Future) Performance Impact by <TechnicalTerm val="Isolate Platform Channels"/>
+## Performance Impact by <TechnicalTerm val="Isolate Platform Channels"/>
 
 We can call <UniqueTerm val="Expensive"/> <UniqueTechnicalTerm val="calling platform-specific APIs"/> in background threads, Because We can **spawn isolate**.
+(※ available on master channel at 2022/10/14)
+
+```mermaid
+flowchart LR
+    subgraph M["Main#32;Isolate"]
+    end
+    M -->|spawn| B
+    subgraph B["Background#32;Isolate"]
+        Dart
+    end
+    Dart -->|sendPort| P
+    subgraph P ["Platform"]
+    end
+    Dart --> |listen| P
+```
+<!-- https://docs.google.com/document/d/1yAFw-6kBefuurXWTur9jdEUAckWiWJVukP1Iay8ehyU -->
+
+```dart
+// example
+void main() => Isolate.spawn(_isolateWithPlatformAPIs, RootIsolateToken.instance!);
+void _isolateWithPlatformAPIs(RootIsolateToken rootIsolateToken) async {
+  BackgroundIsolateBinaryMessenger.ensureInitialized(rootIsolateToken);
+  SharedPreferences sharedPreferences = await SharedPreferences.getInstance();
+}
+```
