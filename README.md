@@ -43,5 +43,5 @@ Slide and Investigation for ["Flutter Expensive Native Embedding Journey"](https
   - [Codemagic | Flutter isolates – everything you need to know](https://blog.codemagic.io/understanding-flutter-isolates/)
   - [What does "costly" mean in terms of software operations?](https://stackoverflow.com/a/9888431)
   - [sensuikan1973 | FFI in Flutter/Dart](https://speakerdeck.com/sensuikan1973/dart)
-  - [sensuikan1973/pedax | high performance desktop app with benefit of `dart:ffi`](https://github.com/sensuikan1973/pedax)
+  - [sensuikan1973/pedax | Real world example: desktop app has native logic and background threading with `dart:ffi`](https://github.com/sensuikan1973/pedax)
   - [Google Cloud Text-to-Speech](https://cloud.google.com/text-to-speech/)
