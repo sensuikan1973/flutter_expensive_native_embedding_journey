@@ -68,7 +68,7 @@ flowchart LR
     subgraph M ["Main#32;Isolate"]
     end
     M -->|Platform Channels| P
-    subgraph P ["Platform"]
+    subgraph P ["Kotlin/Java"]
     end
     P -->|JNI| N
     subgraph N ["C APIs"]
