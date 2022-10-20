@@ -84,7 +84,7 @@ flowchart LR
 
 ## Performance Impact by <TechnicalTerm val="Isolate Platform Channels"/>
 
-We can call <UniqueTerm val="Expensive"/> <UniqueTechnicalTerm val="calling platform-specific APIs"/> in background threads, Because We can **spawn isolate**.
+We can call <UniqueTerm val="Expensive"/> <UniqueTechnicalTerm val="platform-specific APIs"/> in background threads, Because We can **spawn isolate**.
 (※ available on master channel at 2022/10/14)
 
 ```dart
