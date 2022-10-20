@@ -32,7 +32,6 @@ journey
 <!-- https://mermaid-js.github.io/mermaid/#/./flowchart?id=entity-codes-to-escape-characters -->
 
 ::right::
-
 <br/>
 <br/>
 <br/>
@@ -59,6 +58,7 @@ We had to use <a href="https://docs.flutter.dev/development/platform-integration
 
 Not only there is an **overhead** to call <TechnicalTerm val="Platform Channels"/>, but [Executing channel handlers on background threads](https://docs.flutter.dev/development/platform-integration/platform-channels#channels-and-platform-threading) isn't supported except for iOS and Android.  
 Especially, If We want to call <UniqueTerm val="Expensive"/> <UniqueTechnicalTerm val="native C APIs"/> on macOS/Windows/Linux without UI lag, We would struggle to improve my performance.
+<!-- https://docs.google.com/document/d/1bD_tiN987fWEPtw7tjXHzqZVg_g9H95IS32Cm609VZ8/edit# -->
 
 example: Android
 

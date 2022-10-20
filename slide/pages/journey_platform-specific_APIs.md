@@ -34,10 +34,23 @@ journey
         with「Platform Channels」: 3
     section Impact of glude code
         +「Pigeon」: 4
+    section workaround for performance
+        +「e.g. flutter_isolate」 : 5
     section Big impact of performance
         +「Isolate Platform Channels」 : 7
 ```
 <!-- https://docs.flutter.dev/development/platform-integration/platform-channels#pigeon -->
+
+::right::
+<br/>
+<br/>
+<br/>
+<br/>
+<div style="margin-left: 5em; font-size: xx-small">
+    <div>
+    [supplement] aaa
+    </div>
+</div>
 
 ---
 
