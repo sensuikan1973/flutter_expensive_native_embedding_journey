@@ -66,6 +66,8 @@ Especially, If I want to call <UniqueTerm val="Expensive"/> <UniqueTechnicalTerm
 
 ## Performance Impact by <TechnicalTerm val="dart:ffi"/>
 
-I don't have to use <TechnicalTerm val="Platform Channels"/>, because I can use <TechnicalTerm val="dart:ffi"/> to call <UniqueTechnicalTerm val="native C APIs"/>.
-
+I don't have to use <TechnicalTerm val="Platform Channels"/>, because I can use <TechnicalTerm val="dart:ffi"/> to call <UniqueTechnicalTerm val="native C APIs"/>.  
 I can call <UniqueTerm val="Expensive"/> <UniqueTechnicalTerm val="native C APIs"/> in background threads, Because I can **spawn isolate** with <TechnicalTerm val="dart:ffi"/>.  
+
+<!-- https://github.com/sensuikan1973/pedax/blob/main/lib/engine -->
+<!-- https://github.com/sensuikan1973/pedax/blob/main/lib/models/board_notifier.dart -->
