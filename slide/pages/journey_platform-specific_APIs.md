@@ -64,16 +64,15 @@ It's heavy to call <UniqueTerm val="Expensive"/> <UniqueTechnicalTerm val="platf
 Especially, If we want to call <UniqueTerm val="Expensive"/> <UniqueTechnicalTerm val="native C APIs"/> on macOS/Windows/Linux , We would suffer from UI lag.
 
 ```mermaid
-flowchart LR
-    subgraph M ["Main#32;Isolate"]
-    end
-    M -->|Platform Channels| P
-    subgraph P ["Platform"]
-    end
-    P -->|JNI| N
-    subgraph N ["C APIs"]
+flowchart TB
+    subgraph S["Main#32;Isolate"]
+        U1["UI"] --> P["Platform#32;Channels"]
+        P --> D["defaultBinaryMessenger"]
+        D --> P2["Platform side"]
+        P2 -->|callback| U2["UI"]
     end
 ```
+<!-- https://github.com/flutter/flutter/blob/bbdf617034171ab1128a594fb24e1c72a09e072e/packages/flutter/lib/src/services/binding.dart#L82 -->
 
 ---
 
