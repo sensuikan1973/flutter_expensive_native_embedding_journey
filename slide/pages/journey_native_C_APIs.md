@@ -87,29 +87,21 @@ flowchart LR
 We don't have to use <TechnicalTerm val="Platform Channels"/>, because I can use <TechnicalTerm val="dart:ffi"/> to call <UniqueTechnicalTerm val="native C APIs"/>.  
 We can call <UniqueTerm val="Expensive"/> <UniqueTechnicalTerm val="native C APIs"/> in background threads, Because I can **spawn isolate** with <TechnicalTerm val="dart:ffi"/>.  
 
-example: isolated server calls native C APIs (ref: [sensuikan1973/pedax](https://github.com/sensuikan1973/pedax/blob/main/lib/engine/edax_server.dart))
-
-```mermaid
-flowchart LR
-    subgraph M ["Main#32;Isolate"]
-    end
-    M -->|spawn| S
-    subgraph S ["Isolate#32;as#32;server"]
-    end
-```
+example: serve isolate calls native C APIs (ref: [sensuikan1973/pedax](https://github.com/sensuikan1973/pedax/blob/main/lib/engine/edax_server.dart))
 
 ```mermaid
 flowchart LR
     subgraph M ["Main#32;Isolate"]
     end
     M -->|"request#32;heavy#32;native#32;C#32;APIs"| S
-    subgraph S ["Isolate#32;as#32;server"]
+    subgraph S ["Spwaned#32;Isolate#32;as#32;server"]
     end
-    S -->|spawn| S2
-    S -->|spawn| S3
+    S -->|spawn| S2 & S3 & S4
     subgraph S2 ["Spawned#32;Isolate"]
     end
     subgraph S3 ["Spawned#32;Isolate"]
+    end
+    subgraph S4 ["Spawned#32;Isolate"]
     end
     S -->|response| M
 ```
