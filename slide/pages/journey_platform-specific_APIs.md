@@ -81,6 +81,16 @@ flowchart LR
 We can call <UniqueTerm val="Expensive"/> <UniqueTechnicalTerm val="calling platform-specific APIs"/> in background threads, Because We can **spawn isolate**.
 (※ available on master channel at 2022/10/14)
 
+```dart
+// example
+void main() => Isolate.spawn(_isolateWithPlatformAPIs, RootIsolateToken.instance!);
+void _isolateWithPlatformAPIs(RootIsolateToken rootIsolateToken) async {
+  BackgroundIsolateBinaryMessenger.ensureInitialized(rootIsolateToken);
+  SharedPreferences sharedPreferences = await SharedPreferences.getInstance();
+}
+```
+<!-- https://github.com/flutter/website/blob/40204477a6bddc83c1aae7684b8d2db9563265a4/src/development/platform-integration/platform-channels.md#using-plugins-and-channels-from-background-isolates -->
+
 ```mermaid
 flowchart LR
     subgraph M["Main#32;Isolate"]
@@ -96,13 +106,3 @@ flowchart LR
 ```
 <!-- https://docs.google.com/document/d/1yAFw-6kBefuurXWTur9jdEUAckWiWJVukP1Iay8ehyU -->
 <!-- https://api.dart.dev/stable/2.18.3/dart-isolate/SendPort-class.html -->
-
-```dart
-// example
-void main() => Isolate.spawn(_isolateWithPlatformAPIs, RootIsolateToken.instance!);
-void _isolateWithPlatformAPIs(RootIsolateToken rootIsolateToken) async {
-  BackgroundIsolateBinaryMessenger.ensureInitialized(rootIsolateToken);
-  SharedPreferences sharedPreferences = await SharedPreferences.getInstance();
-}
-```
-<!-- https://github.com/flutter/website/blob/40204477a6bddc83c1aae7684b8d2db9563265a4/src/development/platform-integration/platform-channels.md#using-plugins-and-channels-from-background-isolates -->
