@@ -38,7 +38,7 @@ layout: two-cols
 journey
     section Beginning
         with「Platform Channels」: 3
-    section Impact of glude code
+    section Impact of glue code
         +「Pigeon」: 4
     section workaround for performance
         +「3rd package flutter_isolate」 : 4

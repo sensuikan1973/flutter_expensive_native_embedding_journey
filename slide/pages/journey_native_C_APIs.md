@@ -30,7 +30,7 @@ journey
         via「Platform Channels」: 3
     section Big impact of performance
         with「dart#58;ffi」 : 6
-    section Impact of glude code
+    section Impact of glue code
         +「ffigen」 : 7
 ```
 <!-- https://mermaid-js.github.io/mermaid/#/./flowchart?id=entity-codes-to-escape-characters -->
@@ -81,7 +81,7 @@ flowchart LR
 
 <PageTitleHeader section="calling native C APIs" title="Issues"/>
 
-### How abot executing channel handlers on background?
+### How about executing channel handlers on background?
 
 Unfortunately, not enough.  
 
