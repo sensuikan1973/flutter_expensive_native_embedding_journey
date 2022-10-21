@@ -75,7 +75,7 @@ flowchart LR
     end
 ```
 
-<em>Calling into Java with JNI versus executing the equivalent in C is ~20x slower</em>. (by [Flutter-to-Host Messaging Audit](https://docs.google.com/document/d/1bD_tiN987fWEPtw7tjXHzqZVg_g9H95IS32Cm609VZ8))
+<em>Calling into Java with JNI versus executing the equivalent in C is ~20x slower</em>. ([ref](https://docs.google.com/document/d/1bD_tiN987fWEPtw7tjXHzqZVg_g9H95IS32Cm609VZ8))
 
 ---
 
