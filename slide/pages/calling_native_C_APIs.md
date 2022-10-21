@@ -45,7 +45,7 @@ journey
         [supplement]
         <br/>
         <TechnicalTerm val="dart:ffi"/> Architecture Overview
-        (<a href="https://github.com/dart-lang/sdk/blob/master/samples/ffi/sqlite/docs/sqlite-tutorial.md#architecture-overview">ref: "dart-lang/sdk docs"</a>)
+        (ref: <a href="https://github.com/dart-lang/sdk/blob/master/samples/ffi/sqlite/docs/sqlite-tutorial.md#architecture-overview">dart-lang/sdk docs</a>)
     </div>
     <br/>
     <img src="https://github.com/dart-lang/sdk/raw/master/samples/ffi/sqlite/docs/lib/scenario-default.svg" width="350"/>

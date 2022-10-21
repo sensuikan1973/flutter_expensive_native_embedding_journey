@@ -20,7 +20,7 @@ A few examples include the use of [security-scoped bookmarks](https://pub.dev/pa
 <div style="margin-left: 5em; font-size: xx-small">
     <div>
         [supplement] <TechnicalTerm val="Platform Channels"/> Architectural overview
-        (<a href="https://docs.flutter.dev/development/platform-integration/platform-channels#architecture">ref: "Flutter docs"</a>)
+        (ref: <a href="https://docs.flutter.dev/development/platform-integration/platform-channels#architecture">flutter docs</a>)
     </div>
 </div>
 <img src="https://docs.flutter.dev/assets/images/docs/PlatformChannels.png" width="250"/>
