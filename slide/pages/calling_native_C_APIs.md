@@ -106,13 +106,14 @@ example: serve isolate calls native C APIs. <small>(ref: [sensuikan1973/pedax](h
 flowchart LR
     subgraph M ["Main#32;Isolate"]
     end
+    M -->|spawn| S
     M -->|"request#32;heavy#32;native#32;C#32;APIs"| S
-    subgraph S ["Spawned#32;Isolate#32;as#32;server"]
+    subgraph S ["Isolate#32;as#32;server"]
     end
     S -->|spawn| S2 & S3
-    subgraph S2 ["Spawned#32;Isolate"]
+    subgraph S2 ["Isolate"]
     end
-    subgraph S3 ["Spawned#32;Isolate"]
+    subgraph S3 ["Isolate"]
     end
     S -->|response| M
 ```
