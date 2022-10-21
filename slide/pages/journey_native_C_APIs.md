@@ -99,7 +99,7 @@ Then, It's difficult to call <UniqueTerm val="Expensive"/> <UniqueTechnicalTerm 
 We don't have to use <TechnicalTerm val="Platform Channels"/>, because we can use <TechnicalTerm val="dart:ffi"/> to call <UniqueTechnicalTerm val="native C APIs"/> **directly**.  
 Moreover, we can do that in another **spawned isolate**.  
 
-example: serve isolate calls native C APIs (ref: [sensuikan1973/pedax](https://github.com/sensuikan1973/pedax/blob/main/lib/engine/edax_server.dart))
+example: serve isolate calls native C APIs. <small>(ref: [sensuikan1973/pedax](https://github.com/sensuikan1973/pedax/blob/main/lib/engine/edax_server.dart))</small>
 <!-- FFI package example: https://github.com/sensuikan1973/libedax4dart -->
 
 ```mermaid
