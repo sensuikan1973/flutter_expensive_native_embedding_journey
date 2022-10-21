@@ -2,7 +2,8 @@ node_modules
 .DS_Store
 dist
 *.local
-index.html
+# https://sli.dev/custom/directory-structure.html#index-html
+# index.html
 .remote-assets
 components.d.ts
 
