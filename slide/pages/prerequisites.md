@@ -13,7 +13,7 @@
 
 <PageTitleHeader section="prerequisites" title="UI lag in Dart"/>
 
-## [Solution] Background workers
+## Solution: Background workers
 
 <div align="center">
     <img src="https://dart.dev/guides/language/concurrency/images/isolate-bg-worker.png
