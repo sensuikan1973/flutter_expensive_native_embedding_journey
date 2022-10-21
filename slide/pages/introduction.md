@@ -33,7 +33,7 @@ https://docs.flutter.dev/development/platform-integration/macos/c-interop
 
 ● **summary**  
 ● **prerequisites**  
-　○ UI lag in Dart  
+　○ Concurrency in Dart  
 ● **calling <UniqueTechnicalTerm val="native C APIs"/>**  
 　○ Use Case  
 　○ Journey Overview  
