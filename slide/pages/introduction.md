@@ -29,13 +29,13 @@ https://docs.flutter.dev/development/platform-integration/macos/c-interop
 
 ---
 
-<PageTitleHeader section="Introduction" title="Topic"/>
+<PageTitleHeader section="Introduction" title="Agenda"/>
 
-### About prerequisites
+### prerequisites
 
 ● Concurrency in Dart
 
-### About calling <UniqueTechnicalTerm val="native C APIs"/>
+### calling <UniqueTechnicalTerm val="native C APIs"/>
 
 ● Use Case  
 ● Journey Overview  
@@ -44,9 +44,9 @@ https://docs.flutter.dev/development/platform-integration/macos/c-interop
 
 ---
 
-<PageTitleHeader section="Introduction" title="Topic"/>
+<PageTitleHeader section="Introduction" title="Agenda"/>
 
-### About calling <UniqueTechnicalTerm val="platform-specific APIs"/>
+### calling <UniqueTechnicalTerm val="platform-specific APIs"/>
 
 ● Use Case  
 ● Journey Overview  
