@@ -40,15 +40,15 @@ src: ./pages/summary.md
 ---
 
 ---
-src: ./pages/concurrency_in_dart.md
+src: ./pages/prerequisites.md
 ---
 
 ---
-src: ./pages/journey_native_C_APIs.md
+src: ./pages/calling_native_C_APIs.md
 ---
 
 ---
-src: ./pages/journey_platform-specific_APIs.md
+src: ./pages/calling_platform-specific_APIs.md
 ---
 
 ---

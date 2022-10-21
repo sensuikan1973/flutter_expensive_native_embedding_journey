@@ -1,4 +1,4 @@
-<PageTitleHeader section="Introduction" title="Term Definition"/>
+<PageTitleHeader section="introduction" title="Term Definition"/>
 
 ## What is **<UniqueTerm val="Expensive"/>** here ?
 
@@ -29,26 +29,19 @@ https://docs.flutter.dev/development/platform-integration/macos/c-interop
 
 ---
 
-<PageTitleHeader section="Introduction" title="Agenda"/>
+<PageTitleHeader section="introduction" title="Agenda"/>
 
-### prerequisites
-
-● Concurrency in Dart
-
-### calling <UniqueTechnicalTerm val="native C APIs"/>
-
-● Use Case  
-● Journey Overview  
-● Performance Issue at Beginning  
-● Performance Impact by <TechnicalTerm val="dart:ffi"/>
-
----
-
-<PageTitleHeader section="Introduction" title="Agenda"/>
-
-### calling <UniqueTechnicalTerm val="platform-specific APIs"/>
-
-● Use Case  
-● Journey Overview  
-● Current Performance Issue  
-● (Future) Performance Impact by <TechnicalTerm val="Isolate Platform Channels"/>
+● **summary**  
+● **prerequisites**  
+　○ UI lag in Dart  
+● **calling <UniqueTechnicalTerm val="native C APIs"/>**  
+　○ Use Case  
+　○ Journey Overview  
+　○ Performance Issue at Beginning  
+　○ Performance Impact by <TechnicalTerm val="dart:ffi"/>  
+● **calling <UniqueTechnicalTerm val="platform-specific APIs"/>**  
+　○ Use Case  
+　○ Journey Overview  
+　○ Current Performance Issue  
+　○ (Future) Performance Impact by <TechnicalTerm val="Isolate Platform Channels"/>  
+● **summary**
