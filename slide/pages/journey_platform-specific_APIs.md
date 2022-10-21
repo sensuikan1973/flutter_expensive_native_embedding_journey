@@ -103,12 +103,11 @@ flowchart LR
     end
     M -->|spawn| B
     subgraph B["Background#32;Isolate"]
-        Dart
     end
-    Dart -->|sendPort| P
+    B -->|sendPort| P
     subgraph P ["Platform"]
     end
-    Dart --> |listen| P
+    B --> |listen| P
 ```
 <!-- https://docs.google.com/document/d/1yAFw-6kBefuurXWTur9jdEUAckWiWJVukP1Iay8ehyU -->
 <!-- https://api.dart.dev/stable/2.18.3/dart-isolate/SendPort-class.html -->
