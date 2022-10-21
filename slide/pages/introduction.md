@@ -31,14 +31,14 @@ https://docs.flutter.dev/development/platform-integration/macos/c-interop
 
 <PageTitleHeader section="Introduction" title="Topic"/>
 
-### topic about calling <UniqueTechnicalTerm val="native C APIs"/>
+### Topic about calling <UniqueTechnicalTerm val="native C APIs"/>
 
 ● Use Case  
 ● Journey Overview  
 ● Performance Issue at Beginning  
 ● Performance Impact by <TechnicalTerm val="dart:ffi"/>
 
-### topic about calling <UniqueTechnicalTerm val="platform-specific APIs"/>
+### Topic about calling <UniqueTechnicalTerm val="platform-specific APIs"/>
 
 ● Use Case  
 ● Journey Overview  
