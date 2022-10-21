@@ -1,9 +1,10 @@
----
-layout: center
----
-
 <PageTitleHeader section="Concurrency in Dart"/>
 
-<img src="https://dart.dev/guides/language/concurrency/images/event-jank.png" width="350"/>
+## UI lag
 
-<small>ref: [Dart Docs](https://dart.dev/guides/language/concurrency#event-handling)</small>
+<div align="center">
+    <img src="https://dart.dev/guides/language/concurrency/images/event-jank.png" width="300"/>
+    <small>
+    (<a href="https://dart.dev/guides/language/concurrency#event-handling">ref: Dart Docs</a>)
+    </small>
+</div>
