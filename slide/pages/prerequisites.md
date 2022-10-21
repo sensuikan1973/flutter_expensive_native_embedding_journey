@@ -10,15 +10,42 @@
 </div>
 
 ---
+layout: two-cols
+---
 
 <PageTitleHeader section="prerequisites" title="UI lag in Dart"/>
 
-## Solution: Background workers
+## Background workers
 
 <div align="center">
     <img src="https://dart.dev/guides/language/concurrency/images/isolate-bg-worker.png
-" width="500"/>
+" width="400"/> 
     <small>
     (<a href="https://dart.dev/guides/language/concurrency#background-workers">ref: Dart Docs</a>)
     </small>
 </div>
+
+::right::
+
+<br/>
+<br/>
+<br/>
+
+```dart
+// example
+void main() async {
+  final res = await _computeSomething();
+  doSomething(res.foo); // Respond to events
+}
+
+Future<String> _computeSomething() async {
+  final p = ReceivePort();
+  await Isolate.spawn(_doExpensiveWork, p.sendPort);
+  return await p.first as String;
+}
+
+Future<void> _doExpensiveWork(SendPort p) async {
+  final res = "expensive work result";
+  Isolate.exit(p, res);
+}
+```
