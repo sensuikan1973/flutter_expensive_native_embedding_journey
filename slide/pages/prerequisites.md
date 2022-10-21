@@ -1,4 +1,4 @@
-<PageTitleHeader section="prerequisites" title="UI lag in Dart"/>
+<PageTitleHeader section="prerequisites" title="Concurrency in Dart"/>
 
 ## Event Handling
 
@@ -13,7 +13,7 @@
 layout: two-cols
 ---
 
-<PageTitleHeader section="prerequisites" title="UI lag in Dart"/>
+<PageTitleHeader section="prerequisites" title="Concurrency in Dart"/>
 
 ## Background workers
 
