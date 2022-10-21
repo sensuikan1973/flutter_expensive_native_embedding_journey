@@ -19,7 +19,7 @@ layout: two-cols
 
 <div align="center">
     <img src="https://dart.dev/guides/language/concurrency/images/isolate-bg-worker.png
-" width="400"/> 
+" width="400"/>
     <small>
     (<a href="https://dart.dev/guides/language/concurrency#background-workers">ref: Dart Docs</a>)
     </small>
