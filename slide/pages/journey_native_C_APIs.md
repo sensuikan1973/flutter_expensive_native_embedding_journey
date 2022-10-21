@@ -100,6 +100,7 @@ We don't have to use <TechnicalTerm val="Platform Channels"/>, because we can us
 Moreover, we can do that in another **spawned isolate**.  
 
 example: serve isolate calls native C APIs (ref: [sensuikan1973/pedax](https://github.com/sensuikan1973/pedax/blob/main/lib/engine/edax_server.dart))
+<!-- FFI package example: https://github.com/sensuikan1973/libedax4dart -->
 
 ```mermaid
 flowchart LR
