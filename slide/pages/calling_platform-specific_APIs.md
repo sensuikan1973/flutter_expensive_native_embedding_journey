@@ -34,7 +34,7 @@ layout: two-cols
 
 ## Journey Overview
 
-```mermaid {scale: 0.7}
+```mermaid {scale: 0.6}
 journey
     section Beginning
         with「Platform Channels」: 3
