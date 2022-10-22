@@ -3,7 +3,7 @@
 ## What is **<UniqueTerm val="Expensive"/>** here ?
 
 The operations require a lot of CPU, Memory and Running Time.  
-e.g. Connection to remote server, Huge Numerical computation, ...
+e.g. Connection to remote server, Huge numerical computation, ...
 
 ## What is **<UniqueTerm val="Native"/>** here ?
 
