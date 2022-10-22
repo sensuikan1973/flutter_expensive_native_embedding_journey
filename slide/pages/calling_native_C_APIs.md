@@ -81,6 +81,10 @@ flowchart LR
 
 <PageTitleHeader section="calling native C APIs" title="Issues"/>
 
+### How about executing from another isolate?
+
+We can't do that yet.
+
 ### How about executing channel handlers on background?
 
 Unfortunately, not enough.  
