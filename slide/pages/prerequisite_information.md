@@ -1,10 +1,10 @@
-<PageTitleHeader section="prerequisites"/>
+<PageTitleHeader section="prerequisite information"/>
 
-# prerequisites
+# prerequisite information
 
 ---
 
-<PageTitleHeader section="prerequisites" title="Dart Isolate"/>
+<PageTitleHeader section="prerequisite information" title="Dart Isolate"/>
 
 ## Event Handling
 
@@ -19,7 +19,7 @@
 layout: two-cols
 ---
 
-<PageTitleHeader section="prerequisites" title="Dart Isolate"/>
+<PageTitleHeader section="prerequisite information" title="Dart Isolate"/>
 
 ## Background workers
 

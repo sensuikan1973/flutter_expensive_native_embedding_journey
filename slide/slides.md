@@ -40,7 +40,7 @@ src: ./pages/summary.md
 ---
 
 ---
-src: ./pages/prerequisites.md
+src: ./pages/prerequisite_information.md
 ---
 
 ---
