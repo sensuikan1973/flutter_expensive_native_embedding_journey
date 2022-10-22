@@ -89,8 +89,8 @@ We can call <UniqueTerm val="Expensive"/> <UniqueTechnicalTerm val="platform-spe
 
 ```dart
 // example
-void main() => Isolate.spawn(_executeExpensivePlatformAPIs, RootIsolateToken.instance!);
-void _executeExpensivePlatformAPIs(RootIsolateToken rootIsolateToken) async {
+Future<void> main() async => Isolate.spawn(_executeExpensivePlatformAPIs, RootIsolateToken.instance!);
+Future<void> _executeExpensivePlatformAPIs(RootIsolateToken rootIsolateToken) async {
     BackgroundIsolateBinaryMessenger.ensureInitialized(rootIsolateToken);
     SharedPreferences sharedPreferences = await SharedPreferences.getInstance();
 }
