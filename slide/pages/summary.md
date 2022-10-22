@@ -8,5 +8,5 @@
 <div align="center" style="font-size: larger">↓</div>
 
 <div align="center" style="font-size: larger">
-    <b>We can product high Performance apps have <UniqueTerm val="Expensive"/> <UniqueTerm val="Native"/> logic without UI lag :-) </b>
+    <b>We can develop high Performance apps have <UniqueTerm val="Expensive"/> <UniqueTerm val="Native"/> logic without UI lag :-) </b>
 </div>
