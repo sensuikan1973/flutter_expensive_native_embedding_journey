@@ -55,7 +55,7 @@ journey
 
 <PageTitleHeader section="calling native C APIs" title="Issues"/>
 
-## Performance Issue in the beggning
+## Performance Issue in the beginning
 
 We had to use <a href="https://docs.flutter.dev/development/platform-integration/platform-channels" target="_blank"><TechnicalTerm val="Platform Channels"/></a> to call <UniqueTechnicalTerm val="native C APIs"/> with a lot of glue code.  
 <!-- [Dart VM FFI Vision written by Google dart-lang Team Engineer](https://gist.github.com/mraleph/2582b57737711da40262fad71215d62e) -->
