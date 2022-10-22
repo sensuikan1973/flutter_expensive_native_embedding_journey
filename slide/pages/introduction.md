@@ -39,7 +39,7 @@ https://docs.flutter.dev/development/platform-integration/macos/c-interop
 
 ● **summary**  
 ● **prerequisites**  
-　○ Concurrency in Dart  
+　○ Dart Isolate  
 ● **calling <UniqueTechnicalTerm val="native C APIs"/>**  
 　○ Use Case  
 　○ Journey Overview  

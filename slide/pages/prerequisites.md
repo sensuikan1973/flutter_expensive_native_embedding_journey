@@ -4,7 +4,7 @@
 
 ---
 
-<PageTitleHeader section="prerequisites" title="Concurrency in Dart"/>
+<PageTitleHeader section="prerequisites" title="Dart Isolate"/>
 
 ## Event Handling
 
@@ -19,7 +19,7 @@
 layout: two-cols
 ---
 
-<PageTitleHeader section="prerequisites" title="Concurrency in Dart"/>
+<PageTitleHeader section="prerequisites" title="Dart Isolate"/>
 
 ## Background workers
 
