@@ -32,7 +32,7 @@ https://docs.flutter.dev/development/platform-integration/macos/c-interop
 <PageTitleHeader section="introduction" title="Agenda"/>
 
 ● **summary**  
-● **prerequisites**  
+● **prerequisite information**  
 　○ Dart Isolate  
 ● **calling <UniqueTechnicalTerm val="native C APIs"/>**  
 　○ Use Case  
