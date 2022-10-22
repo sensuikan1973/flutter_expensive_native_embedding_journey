@@ -36,7 +36,7 @@ layout: two-cols
 
 ```mermaid {scale: 0.6}
 journey
-    section Beginning
+    section In the beginning
         with「Platform Channels」: 3
     section Impact of glue code
         +「Pigeon」: 4
