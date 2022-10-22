@@ -40,8 +40,8 @@ layout: two-cols
 ```dart
 // example
 void main() async {
-  final res = await _computeSomething();
-  doSomething(res.foo); // Respond to events
+  final result = await _computeSomething();
+  doSomething(result.foo);
 }
 
 Future<String> _computeSomething() async {
@@ -51,7 +51,7 @@ Future<String> _computeSomething() async {
 }
 
 Future<void> _doExpensiveWork(SendPort p) async {
-  final res = "expensive work result";
-  Isolate.exit(p, res);
+  final message = "expensive work result";
+  Isolate.exit(p, message);
 }
 ```
