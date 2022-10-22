@@ -1,9 +1,3 @@
-<PageTitleHeader section="introduction"/>
-
-# introduction
-
----
-
 <PageTitleHeader section="introduction" title="Term Definition"/>
 
 ## What is **<UniqueTerm val="Expensive"/>** here ?
