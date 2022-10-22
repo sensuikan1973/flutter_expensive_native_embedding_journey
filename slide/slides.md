@@ -8,7 +8,7 @@ class: text-center
 highlighter: shiki
 lineNumbers: true
 drawings:
-  enabled: true
+  presenterOnly: true
 css: unocss
 canvasWidth: 980
 aspectRatio: 16/9
