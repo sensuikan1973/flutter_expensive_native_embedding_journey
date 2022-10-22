@@ -41,16 +41,16 @@ layout: two-cols
 // example
 void main() async {
   final result = await _computeSomething();
-  doSomething(result.foo);
+  print(result.foo);
 }
 
 Future<String> _computeSomething() async {
   final p = ReceivePort();
-  await Isolate.spawn(_doExpensiveWork, p.sendPort);
+  await Isolate.spawn(_executeExpensiveWork, p.sendPort);
   return await p.first as String;
 }
 
-Future<void> _doExpensiveWork(SendPort p) async {
+Future<void> _executeExpensiveWork(SendPort p) async {
   final message = "expensive work result";
   Isolate.exit(p, message);
 }
