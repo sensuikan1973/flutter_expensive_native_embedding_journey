@@ -2,7 +2,7 @@
 
 ## What is **<UniqueTerm val="Expensive"/>** here ?
 
-Operations require a lot of CPU, Memory and Running Time.  
+The operations require a lot of CPU, Memory and Running Time.  
 e.g. Connection to remote server, Huge Numerical computation, ...
 
 ## What is **<UniqueTerm val="Native"/>** here ?
