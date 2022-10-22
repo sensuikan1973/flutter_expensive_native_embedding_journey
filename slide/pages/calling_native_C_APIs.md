@@ -12,7 +12,7 @@ std::cout<<"Hello World !"<<std::endl;
 
 ## Use Case
 
-C based library we want to use is often highly optimized and difficult to replace.  
+C based libraries we want to use is often highly optimized and difficult to replace.  
 A few examples include the use of [realm](https://github.com/realm/realm-core) and [opencv](https://opencv.org/).
 
 ---
