@@ -37,7 +37,7 @@ https://docs.flutter.dev/development/platform-integration/macos/c-interop
 ● **calling <UniqueTechnicalTerm val="native C APIs"/>**  
 　○ Use Case  
 　○ Journey Overview  
-　○ Performance Issue at Beginning  
+　○ Performance Issue in the beginning  
 　○ Performance Impact by <TechnicalTerm val="dart:ffi"/>  
 ● **calling <UniqueTechnicalTerm val="platform-specific APIs"/>**  
 　○ Use Case  
