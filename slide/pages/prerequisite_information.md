@@ -21,7 +21,7 @@ layout: two-cols
 
 <PageTitleHeader section="prerequisite information" title="Dart Isolate"/>
 
-## Background workers
+## Background Workers
 
 <div align="center">
     <img src="https://dart.dev/guides/language/concurrency/images/isolate-bg-worker.png
