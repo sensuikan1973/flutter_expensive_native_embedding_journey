@@ -10,7 +10,7 @@ e.g. Connection to remote server, Huge numerical computation, ...
 - ① <UniqueTechnicalTerm val="native C APIs"/>
 
 ```c
-std::cout<<"Hello World !"<<std::endl;
+printf("Hello, World!");
 ```
 
 - ② <UniqueTechnicalTerm val="platform-specific APIs"/> <br> <small>(Kotlin/Java on Android, Swift/Objective-C on iOS, C++ on Windows, Objective-C on macOS, C on Linux)</small>

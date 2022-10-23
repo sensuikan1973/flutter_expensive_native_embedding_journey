@@ -3,7 +3,10 @@
 # calling <UniqueTechnicalTerm val="native C APIs"/>
 
 ```c
-std::cout<<"Hello World !"<<std::endl;
+int hello_world() {
+   printf("Hello, World!");
+   return 0;
+}
 ```
 
 ---
