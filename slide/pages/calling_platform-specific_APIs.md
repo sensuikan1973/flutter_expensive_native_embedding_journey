@@ -78,6 +78,7 @@ flowchart LR
 ```
 <!-- https://github.com/flutter/flutter/blob/bbdf617034171ab1128a594fb24e1c72a09e072e/packages/flutter/lib/src/services/binding.dart#L82 -->
 <!-- https://api.flutter.dev/flutter/services/BinaryMessenger-class.html -->
+<!-- https://api.flutter.dev/flutter/services/ServicesBinding/defaultBinaryMessenger.html -->
 
 ---
 
@@ -105,10 +106,13 @@ flowchart LR
     M -->|spawn| B
     subgraph B["Background#32;Isolate"]
     end
-    B -->|sendPort| P
+    B --> PB
+    subgraph PB["PortBinaryMessenger"]
+    end
+    PB -->|sendPort| P
     subgraph P ["Platform"]
     end
-    B --> |listen| P
+    PB --> |listen| P
 ```
 <!-- https://docs.google.com/document/d/1yAFw-6kBefuurXWTur9jdEUAckWiWJVukP1Iay8ehyU -->
 <!-- https://api.dart.dev/stable/2.18.3/dart-isolate/SendPort-class.html -->
