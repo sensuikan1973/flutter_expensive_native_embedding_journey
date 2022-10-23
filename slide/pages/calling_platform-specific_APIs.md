@@ -77,6 +77,7 @@ flowchart LR
     P2 -->|callback| M
 ```
 <!-- https://github.com/flutter/flutter/blob/bbdf617034171ab1128a594fb24e1c72a09e072e/packages/flutter/lib/src/services/binding.dart#L82 -->
+<!-- https://api.flutter.dev/flutter/services/BinaryMessenger-class.html -->
 
 ---
 
