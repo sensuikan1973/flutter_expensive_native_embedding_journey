@@ -24,10 +24,10 @@ at [FlutterKaigi 2022](https://flutterkaigi.jp/2022/)
     class="text-xl icon-btn !border-none !hover:text-black">
     <carbon-logo-github />
   </a>
-  <a href="https://sensuikan1973.github.io/flutter_expensive_native_embedding_journey/flutter_expensive_native_embedding_journey.pdf" target="_blank"
+  <!-- <a href="https://sensuikan1973.github.io/flutter_expensive_native_embedding_journey/flutter_expensive_native_embedding_journey.pdf" target="_blank"
     class="text-xl icon-btn !border-none !hover:text-black">
     <carbon-download />
-  </a>
+  </a> -->
 </div>
 
 
