@@ -48,7 +48,8 @@ journey
         [supplement]
         <br/>
         <TechnicalTerm val="dart:ffi"/> Architecture Overview
-        (ref: <a href="https://github.com/dart-lang/sdk/blob/master/samples/ffi/sqlite/docs/sqlite-tutorial.md#architecture-overview">dart-lang/sdk docs</a>)
+        <br/>
+        (<a href="https://github.com/dart-lang/sdk/blob/master/samples/ffi/sqlite/docs/sqlite-tutorial.md#architecture-overview" target="_blank">https://github.com/dart-lang/sdk/blob/master/samples/ffi/sqlite/docs/sqlite-tutorial.md#architecture-overview</a>)
     </div>
     <br/>
     <img src="https://github.com/dart-lang/sdk/raw/master/samples/ffi/sqlite/docs/lib/scenario-default.svg" width="350"/>
@@ -78,7 +79,8 @@ flowchart LR
     end
 ```
 
-<em>Calling into Java with JNI versus executing the equivalent in C is ~20x slower</em>. ([ref](https://docs.google.com/document/d/1bD_tiN987fWEPtw7tjXHzqZVg_g9H95IS32Cm609VZ8))
+<em>Calling into Java with JNI versus executing the equivalent in C is ~20x slower</em>.
+<small>([https://docs.google.com/document/d/1bD_tiN987fWEPtw7tjXHzqZVg_g9H95IS32Cm609VZ8](https://docs.google.com/document/d/1bD_tiN987fWEPtw7tjXHzqZVg_g9H95IS32Cm609VZ8))</small>
 
 ---
 
@@ -106,7 +108,7 @@ Unfortunately, not enough.
 We don't have to use <TechnicalTerm val="Platform Channels"/> because we can use <TechnicalTerm val="dart:ffi"/> to call <UniqueTechnicalTerm val="native C APIs"/> **directly**.  
 Moreover, we can do that from **spawned isolate**.  
 
-example: serve isolate calls native C APIs. <small>(ref: [sensuikan1973/pedax](https://github.com/sensuikan1973/pedax/blob/main/lib/engine/edax_server.dart))</small>
+example: serve isolate calls native C APIs. <small>(e.g. [sensuikan1973/pedax](https://github.com/sensuikan1973/pedax/blob/main/lib/engine/edax_server.dart))</small>
 <!-- FFI package example: https://github.com/sensuikan1973/libedax4dart -->
 
 ```mermaid

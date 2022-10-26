@@ -11,7 +11,7 @@
 <div align="center">
     <img src="https://dart.dev/guides/language/concurrency/images/event-jank.png" width="300"/>
     <small>
-    (ref: <a href="https://dart.dev/guides/language/concurrency#event-handling">Dart Docs</a>)
+    (<a href="https://dart.dev/guides/language/concurrency#event-handling" target="_blank">https://dart.dev/guides/language/concurrency#event-handling</a>)
     </small>
 </div>
 
@@ -27,7 +27,7 @@ layout: two-cols
     <img src="https://dart.dev/guides/language/concurrency/images/isolate-bg-worker.png
 " width="400"/>
     <small>
-    (ref: <a href="https://dart.dev/guides/language/concurrency#background-workers">Dart Docs</a>)
+    (<a href="https://dart.dev/guides/language/concurrency#background-workers" target="_blank">https://dart.dev/guides/language/concurrency#background-workers</a>)
     </small>
 </div>
 
