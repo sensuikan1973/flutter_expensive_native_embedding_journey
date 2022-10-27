@@ -45,3 +45,4 @@ Slide of ["Flutter Expensive Native Embedding Journey"](https://fortee.jp/flutte
     - [sbis04/flutter_docker](https://github.com/sbis04/flutter_docker)
 - Others
   - [Google Cloud Text-to-Speech](https://cloud.google.com/text-to-speech/)
+  - [Google Cloud Speech-to-Text](https://cloud.google.com/speech-to-text)
