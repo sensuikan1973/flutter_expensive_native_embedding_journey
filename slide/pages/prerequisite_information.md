@@ -27,7 +27,7 @@ layout: two-cols
     <img src="https://dart.dev/guides/language/concurrency/images/isolate-bg-worker.png
 " width="400"/>
     <small>
-    (<a href="https://dart.dev/guides/language/concurrency#background-workers" target="_blank">https://dart.dev/guides/language/concurrency#background-workers</a>)
+    (<a href="https://dart.dev/guides/language/concurrency#background-workers" target="_blank">https://dart.dev/guides/language/<br/>concurrency#background-workers</a>)
     </small>
 </div>
 
