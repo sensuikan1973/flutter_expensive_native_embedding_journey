@@ -28,6 +28,7 @@ Slide of ["Flutter Expensive Native Embedding Journey"](https://fortee.jp/flutte
     - [ffigen](https://pub.dev/packages/ffigen)
 - Others
   - [Concurrency in Dart](https://dart.dev/guides/language/concurrency)
+  - [Dart asynchronous programming: Isolates and event loops](https://medium.com/dartlang/dart-asynchronous-programming-isolates-and-event-loops-bffc3e296a6a)
   - [Codemagic | Flutter isolates – everything you need to know](https://blog.codemagic.io/understanding-flutter-isolates/)
   - [What does "costly" mean in terms of software operations?](https://stackoverflow.com/a/9888431)
   - [sensuikan1973 | FFI in Flutter/Dart](https://speakerdeck.com/sensuikan1973/dart)
