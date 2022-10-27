@@ -9,6 +9,19 @@
 ## Event Handling
 
 <div align="center">
+    <img src="https://dart.dev/guides/language/concurrency/images/event-handling.png" width="500"/>
+    <small>
+    (<a href="https://dart.dev/guides/language/concurrency#event-handling" target="_blank">https://dart.dev/guides/language/concurrency#event-handling</a>)
+    </small>
+</div>
+
+---
+
+<PageTitleHeader section="prerequisite information" title="Dart Isolate"/>
+
+## Event Handling
+
+<div align="center">
     <img src="https://dart.dev/guides/language/concurrency/images/event-jank.png" width="300"/>
     <small>
     (<a href="https://dart.dev/guides/language/concurrency#event-handling" target="_blank">https://dart.dev/guides/language/concurrency#event-handling</a>)
