@@ -19,7 +19,7 @@
     "upgrade_deps": "npm-check-updates -u && npm update"
   },
   "dependencies": {
-    "@slidev/cli": "^0.36.9",
+    "@slidev/cli": "^0.36.10",
     "slidev-theme-geist": "^0.8.1"
   },
   "devDependencies": {
