@@ -48,17 +48,6 @@ journey
 ```
 <!-- https://docs.flutter.dev/development/platform-integration/platform-channels#pigeon -->
 
-::right::
-<br/>
-<br/>
-<br/>
-<br/>
-<div style="margin-left: 5em; font-size: xx-small">
-    <div>
-    <!-- [supplement] aaa -->
-    </div>
-</div>
-
 ---
 
 <PageTitleHeader section="calling platform-specific APIs" title="Issues"/>
