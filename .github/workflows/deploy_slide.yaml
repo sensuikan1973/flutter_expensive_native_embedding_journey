@@ -44,7 +44,7 @@ jobs:
       - uses: actions/checkout@v4
 
       # https://github.com/actions/setup-node/issues/206#issuecomment-774538395
-      - uses: nodenv/actions/node-version@main
+      - uses: nodenv/actions/node-version@v3
         id: nodenv
       - uses: actions/setup-node@v4
         with:
