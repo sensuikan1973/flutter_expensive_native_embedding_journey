@@ -60,7 +60,7 @@ jobs:
           mv slides-export.pdf dist/flutter_expensive_native_embedding_journey.pdf
 
       - uses: actions/configure-pages@v1
-      - uses: actions/upload-pages-artifact@v1
+      - uses: actions/upload-pages-artifact@v3
         with:
           path: './slide/dist/'
 
