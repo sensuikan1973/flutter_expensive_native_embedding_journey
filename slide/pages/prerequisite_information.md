@@ -9,7 +9,7 @@
 ## Event Handling
 
 <div align="center">
-    <img src="https://dart.dev/guides/language/concurrency/images/event-handling.png" width="500"/>
+    <img src="https://dart.dev/assets/img/language/concurrency/event-loop.png" width="500"/>
     <small>
     (<a href="https://dart.dev/guides/language/concurrency#event-handling" target="_blank">https://dart.dev/guides/language/concurrency#event-handling</a>)
     </small>
@@ -22,7 +22,7 @@
 ## Event Handling
 
 <div align="center">
-    <img src="https://dart.dev/guides/language/concurrency/images/event-jank.png" width="300"/>
+    <img src="https://dart.dev/assets/img/language/concurrency/event-jank.png" width="300"/>
     <small>
     (<a href="https://dart.dev/guides/language/concurrency#event-handling" target="_blank">https://dart.dev/guides/language/concurrency#event-handling</a>)
     </small>
@@ -37,8 +37,7 @@ layout: two-cols
 ## Background Workers
 
 <div align="center">
-    <img src="https://dart.dev/guides/language/concurrency/images/isolate-bg-worker.png
-" width="400"/>
+    <img src="https://dart.dev/assets/img/language/concurrency/isolate-bg-worker.png" width="400"/>
     <small>
     (<a href="https://dart.dev/guides/language/concurrency#background-workers" target="_blank">https://dart.dev/guides/language/<br/>concurrency#background-workers</a>)
     </small>
