@@ -1,27 +1,27 @@
 ---
 mac:
   - changed-files:
-    - any-glob-to-any-file: macos/**/*
+      - any-glob-to-any-file: macos/**/*
 
 linux:
   - changed-files:
-    - any-glob-to-any-file: linux/**/*
+      - any-glob-to-any-file: linux/**/*
 
 windows:
   - changed-files:
-    - any-glob-to-any-file: windows/**/*
+      - any-glob-to-any-file: windows/**/*
 
 slidev:
   - changed-files:
-    - any-glob-to-any-file: slide/**/*
-    - any-glob-to-any-file: .github/workflows/deploy_slide.yaml
-    - any-glob-to-any-file: .prettierrc
-    - any-glob-to-any-file: .node-version
+      - any-glob-to-any-file: slide/**/*
+      - any-glob-to-any-file: .github/workflows/deploy_slide.yaml
+      - any-glob-to-any-file: .prettierrc
+      - any-glob-to-any-file: .node-version
 
 GitHub Actions:
   - changed-files:
-    - any-glob-to-any-file: .github/workflows/**/*
-    - any-glob-to-any-file: .github/scripts/**/*
-    - any-glob-to-any-file: .github/dependabot.yml
-    - any-glob-to-any-file: .github/labeler.yml
-    - any-glob-to-any-file: .github/.typos_config.toml
+      - any-glob-to-any-file: .github/workflows/**/*
+      - any-glob-to-any-file: .github/scripts/**/*
+      - any-glob-to-any-file: .github/dependabot.yml
+      - any-glob-to-any-file: .github/labeler.yml
+      - any-glob-to-any-file: .github/.typos_config.toml
