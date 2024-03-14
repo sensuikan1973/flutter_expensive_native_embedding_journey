@@ -29,7 +29,6 @@ at [FlutterKaigi 2022](https://flutterkaigi.jp/2022/)
   </a> -->
 </div>
 
-
 ---
 src: ./pages/introduction.md
 ---
